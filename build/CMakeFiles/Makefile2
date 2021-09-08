@@ -63,6 +63,8 @@ CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/bu
 # Directory level rules for directory src
 
 # Convenience name for "all" pass in the directory.
+src/all: src/CMakeFiles/question17.dir/all
+src/all: src/CMakeFiles/question2.dir/all
 src/all: src/CMakeFiles/question75.dir/all
 src/all: src/CMakeFiles/question64.dir/all
 src/all: src/CMakeFiles/question45.dir/all
@@ -72,6 +74,7 @@ src/all: src/CMakeFiles/question121.dir/all
 src/all: src/CMakeFiles/question66.dir/all
 src/all: src/CMakeFiles/question118.dir/all
 src/all: src/CMakeFiles/question88.dir/all
+src/all: src/CMakeFiles/question19.dir/all
 src/all: src/CMakeFiles/question167.dir/all
 src/all: src/CMakeFiles/question169.dir/all
 src/all: src/CMakeFiles/question48.dir/all
@@ -89,6 +92,8 @@ src/all: src/CMakeFiles/question34.dir/all
 .PHONY : src/all
 
 # Convenience name for "clean" pass in the directory.
+src/clean: src/CMakeFiles/question17.dir/clean
+src/clean: src/CMakeFiles/question2.dir/clean
 src/clean: src/CMakeFiles/question75.dir/clean
 src/clean: src/CMakeFiles/question64.dir/clean
 src/clean: src/CMakeFiles/question45.dir/clean
@@ -98,6 +103,7 @@ src/clean: src/CMakeFiles/question121.dir/clean
 src/clean: src/CMakeFiles/question66.dir/clean
 src/clean: src/CMakeFiles/question118.dir/clean
 src/clean: src/CMakeFiles/question88.dir/clean
+src/clean: src/CMakeFiles/question19.dir/clean
 src/clean: src/CMakeFiles/question167.dir/clean
 src/clean: src/CMakeFiles/question169.dir/clean
 src/clean: src/CMakeFiles/question48.dir/clean
@@ -120,13 +126,87 @@ src/preinstall:
 .PHONY : src/preinstall
 
 #=============================================================================
+# Target rules for target src/CMakeFiles/question17.dir
+
+# All Build rule for target.
+src/CMakeFiles/question17.dir/all:
+	$(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/depend
+	$(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=19,20 "Built target question17"
+.PHONY : src/CMakeFiles/question17.dir/all
+
+# Include target in all.
+all: src/CMakeFiles/question17.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/question17.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question17.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/question17.dir/rule
+
+# Convenience name for target.
+question17: src/CMakeFiles/question17.dir/rule
+
+.PHONY : question17
+
+# clean rule for target.
+src/CMakeFiles/question17.dir/clean:
+	$(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/clean
+.PHONY : src/CMakeFiles/question17.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/question17.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/question2.dir
+
+# All Build rule for target.
+src/CMakeFiles/question2.dir/all:
+	$(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/depend
+	$(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=23,24 "Built target question2"
+.PHONY : src/CMakeFiles/question2.dir/all
+
+# Include target in all.
+all: src/CMakeFiles/question2.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/question2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/question2.dir/rule
+
+# Convenience name for target.
+question2: src/CMakeFiles/question2.dir/rule
+
+.PHONY : question2
+
+# clean rule for target.
+src/CMakeFiles/question2.dir/clean:
+	$(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/clean
+.PHONY : src/CMakeFiles/question2.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/question2.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target src/CMakeFiles/question75.dir
 
 # All Build rule for target.
 src/CMakeFiles/question75.dir/all:
 	$(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/depend
 	$(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=41,42 "Built target question75"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=47,48 "Built target question75"
 .PHONY : src/CMakeFiles/question75.dir/all
 
 # Include target in all.
@@ -163,7 +243,7 @@ clean: src/CMakeFiles/question75.dir/clean
 src/CMakeFiles/question64.dir/all:
 	$(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/depend
 	$(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=35,36 "Built target question64"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=41,42 "Built target question64"
 .PHONY : src/CMakeFiles/question64.dir/all
 
 # Include target in all.
@@ -200,7 +280,7 @@ clean: src/CMakeFiles/question64.dir/clean
 src/CMakeFiles/question45.dir/all:
 	$(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/depend
 	$(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=31,32 "Built target question45"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=37,38 "Built target question45"
 .PHONY : src/CMakeFiles/question45.dir/all
 
 # Include target in all.
@@ -237,7 +317,7 @@ clean: src/CMakeFiles/question45.dir/clean
 src/CMakeFiles/question40.dir/all:
 	$(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/depend
 	$(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=29,30 "Built target question40"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=35,36 "Built target question40"
 .PHONY : src/CMakeFiles/question40.dir/all
 
 # Include target in all.
@@ -348,7 +428,7 @@ clean: src/CMakeFiles/question121.dir/clean
 src/CMakeFiles/question66.dir/all:
 	$(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/depend
 	$(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=37,38 "Built target question66"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=43,44 "Built target question66"
 .PHONY : src/CMakeFiles/question66.dir/all
 
 # Include target in all.
@@ -422,7 +502,7 @@ clean: src/CMakeFiles/question118.dir/clean
 src/CMakeFiles/question88.dir/all:
 	$(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/depend
 	$(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=43,44 "Built target question88"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=49,50 "Built target question88"
 .PHONY : src/CMakeFiles/question88.dir/all
 
 # Include target in all.
@@ -449,6 +529,43 @@ src/CMakeFiles/question88.dir/clean:
 
 # clean rule for target.
 clean: src/CMakeFiles/question88.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/question19.dir
+
+# All Build rule for target.
+src/CMakeFiles/question19.dir/all:
+	$(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/depend
+	$(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=21,22 "Built target question19"
+.PHONY : src/CMakeFiles/question19.dir/all
+
+# Include target in all.
+all: src/CMakeFiles/question19.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/question19.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question19.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/question19.dir/rule
+
+# Convenience name for target.
+question19: src/CMakeFiles/question19.dir/rule
+
+.PHONY : question19
+
+# clean rule for target.
+src/CMakeFiles/question19.dir/clean:
+	$(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/clean
+.PHONY : src/CMakeFiles/question19.dir/clean
+
+# clean rule for target.
+clean: src/CMakeFiles/question19.dir/clean
 
 .PHONY : clean
 
@@ -533,7 +650,7 @@ clean: src/CMakeFiles/question169.dir/clean
 src/CMakeFiles/question48.dir/all:
 	$(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/depend
 	$(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=33,34 "Built target question48"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=39,40 "Built target question48"
 .PHONY : src/CMakeFiles/question48.dir/all
 
 # Include target in all.
@@ -607,7 +724,7 @@ clean: src/CMakeFiles/question119.dir/clean
 src/CMakeFiles/question204.dir/all:
 	$(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/depend
 	$(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=19,20 "Built target question204"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=25,26 "Built target question204"
 .PHONY : src/CMakeFiles/question204.dir/all
 
 # Include target in all.
@@ -681,7 +798,7 @@ clean: src/CMakeFiles/question11.dir/clean
 src/CMakeFiles/question33.dir/all:
 	$(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/depend
 	$(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=23,24 "Built target question33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=29,30 "Built target question33"
 .PHONY : src/CMakeFiles/question33.dir/all
 
 # Include target in all.
@@ -792,7 +909,7 @@ clean: src/CMakeFiles/question16.dir/clean
 src/CMakeFiles/question39.dir/all:
 	$(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/depend
 	$(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=27,28 "Built target question39"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=33,34 "Built target question39"
 .PHONY : src/CMakeFiles/question39.dir/all
 
 # Include target in all.
@@ -829,7 +946,7 @@ clean: src/CMakeFiles/question39.dir/clean
 src/CMakeFiles/question31.dir/all:
 	$(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/depend
 	$(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=21,22 "Built target question31"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=27,28 "Built target question31"
 .PHONY : src/CMakeFiles/question31.dir/all
 
 # Include target in all.
@@ -866,7 +983,7 @@ clean: src/CMakeFiles/question31.dir/clean
 src/CMakeFiles/question74.dir/all:
 	$(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/depend
 	$(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=39,40 "Built target question74"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=45,46 "Built target question74"
 .PHONY : src/CMakeFiles/question74.dir/all
 
 # Include target in all.
@@ -903,7 +1020,7 @@ clean: src/CMakeFiles/question74.dir/clean
 src/CMakeFiles/question34.dir/all:
 	$(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/depend
 	$(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=25,26 "Built target question34"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles --progress-num=31,32 "Built target question34"
 .PHONY : src/CMakeFiles/question34.dir/all
 
 # Include target in all.
