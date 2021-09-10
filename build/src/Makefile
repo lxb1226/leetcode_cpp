@@ -276,6 +276,21 @@ question88/fast:
 .PHONY : question88/fast
 
 # Convenience name for target.
+src/CMakeFiles/question62.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question62.dir/rule
+.PHONY : src/CMakeFiles/question62.dir/rule
+
+# Convenience name for target.
+question62: src/CMakeFiles/question62.dir/rule
+
+.PHONY : question62
+
+# fast build rule for target.
+question62/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/build
+.PHONY : question62/fast
+
+# Convenience name for target.
 src/CMakeFiles/question19.dir/rule:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question19.dir/rule
 .PHONY : src/CMakeFiles/question19.dir/rule
@@ -304,6 +319,21 @@ question167: src/CMakeFiles/question167.dir/rule
 question167/fast:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question167.dir/build.make src/CMakeFiles/question167.dir/build
 .PHONY : question167/fast
+
+# Convenience name for target.
+src/CMakeFiles/question78.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question78.dir/rule
+.PHONY : src/CMakeFiles/question78.dir/rule
+
+# Convenience name for target.
+question78: src/CMakeFiles/question78.dir/rule
+
+.PHONY : question78
+
+# fast build rule for target.
+question78/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/build
+.PHONY : question78/fast
 
 # Convenience name for target.
 src/CMakeFiles/question169.dir/rule:
@@ -409,6 +439,21 @@ question15: src/CMakeFiles/question15.dir/rule
 question15/fast:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/build
 .PHONY : question15/fast
+
+# Convenience name for target.
+src/CMakeFiles/question56.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question56.dir/rule
+.PHONY : src/CMakeFiles/question56.dir/rule
+
+# Convenience name for target.
+question56: src/CMakeFiles/question56.dir/rule
+
+.PHONY : question56
+
+# fast build rule for target.
+question56/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/build
+.PHONY : question56/fast
 
 # Convenience name for target.
 src/CMakeFiles/question16.dir/rule:
@@ -1025,6 +1070,60 @@ question48.cpp.s:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/question48.cpp.s
 .PHONY : question48.cpp.s
 
+question56.o: question56.cpp.o
+
+.PHONY : question56.o
+
+# target to build an object file
+question56.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.o
+.PHONY : question56.cpp.o
+
+question56.i: question56.cpp.i
+
+.PHONY : question56.i
+
+# target to preprocess a source file
+question56.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.i
+.PHONY : question56.cpp.i
+
+question56.s: question56.cpp.s
+
+.PHONY : question56.s
+
+# target to generate assembly for a file
+question56.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.s
+.PHONY : question56.cpp.s
+
+question62.o: question62.cpp.o
+
+.PHONY : question62.o
+
+# target to build an object file
+question62.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/question62.cpp.o
+.PHONY : question62.cpp.o
+
+question62.i: question62.cpp.i
+
+.PHONY : question62.i
+
+# target to preprocess a source file
+question62.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/question62.cpp.i
+.PHONY : question62.cpp.i
+
+question62.s: question62.cpp.s
+
+.PHONY : question62.s
+
+# target to generate assembly for a file
+question62.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/question62.cpp.s
+.PHONY : question62.cpp.s
+
 question64.o: question64.cpp.o
 
 .PHONY : question64.o
@@ -1133,6 +1232,33 @@ question75.cpp.s:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/question75.cpp.s
 .PHONY : question75.cpp.s
 
+question78.o: question78.cpp.o
+
+.PHONY : question78.o
+
+# target to build an object file
+question78.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.o
+.PHONY : question78.cpp.o
+
+question78.i: question78.cpp.i
+
+.PHONY : question78.i
+
+# target to preprocess a source file
+question78.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.i
+.PHONY : question78.cpp.i
+
+question78.s: question78.cpp.s
+
+.PHONY : question78.s
+
+# target to generate assembly for a file
+question78.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.s
+.PHONY : question78.cpp.s
+
 question88.o: question88.cpp.o
 
 .PHONY : question88.o
@@ -1178,8 +1304,10 @@ help:
 	@echo "... question66"
 	@echo "... question118"
 	@echo "... question88"
+	@echo "... question62"
 	@echo "... question19"
 	@echo "... question167"
+	@echo "... question78"
 	@echo "... question169"
 	@echo "... question48"
 	@echo "... question119"
@@ -1187,6 +1315,7 @@ help:
 	@echo "... question11"
 	@echo "... question33"
 	@echo "... question15"
+	@echo "... question56"
 	@echo "... question16"
 	@echo "... question39"
 	@echo "... question31"
@@ -1253,6 +1382,12 @@ help:
 	@echo "... question48.o"
 	@echo "... question48.i"
 	@echo "... question48.s"
+	@echo "... question56.o"
+	@echo "... question56.i"
+	@echo "... question56.s"
+	@echo "... question62.o"
+	@echo "... question62.i"
+	@echo "... question62.s"
 	@echo "... question64.o"
 	@echo "... question64.i"
 	@echo "... question64.s"
@@ -1265,6 +1400,9 @@ help:
 	@echo "... question75.o"
 	@echo "... question75.i"
 	@echo "... question75.s"
+	@echo "... question78.o"
+	@echo "... question78.i"
+	@echo "... question78.s"
 	@echo "... question88.o"
 	@echo "... question88.i"
 	@echo "... question88.s"
