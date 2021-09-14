@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/question40.dir/question40.cpp.o  -o question40 
+/usr/bin/c++  -ggdb -Wall -g   CMakeFiles/question40.dir/question40.cpp.o  -o question40 

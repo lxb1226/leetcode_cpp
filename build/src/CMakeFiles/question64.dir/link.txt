@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/question64.dir/question64.cpp.o  -o question64 
+/usr/bin/c++  -ggdb -Wall -g   CMakeFiles/question64.dir/question64.cpp.o  -o question64 
