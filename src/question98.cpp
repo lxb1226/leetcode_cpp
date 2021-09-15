@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <climits>
 
 using namespace std;
 
@@ -15,15 +16,23 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 递归
     bool isValidBST(TreeNode* root) {
-        
+        return helper(root, LONG_MIN, LONG_MAX);
     }
 
-    bool isVaild(TreeNode* root, int l_value, int r_value){
-        
-        
-        
+    bool helper(TreeNode* root, long long lower, long long upper){
+        if(root == nullptr){
+            return true;
+        }
+        if(root->val <= lower || root->val >= upper){
+            return false;
+        }
+
+        return helper(root->left, lower, root->val) && helper(root->right, root->val, upper);
     }
+
+    // 法二：中序遍历
 
 };
 
