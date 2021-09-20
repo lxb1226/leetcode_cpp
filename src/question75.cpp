@@ -8,16 +8,22 @@ class Solution {
 public:
     // TODO：考虑使用双指针法
     void sortColors(vector<int>& nums) {
-        int l = 0, r = nums.size() - 1;
-        while(l < r){
-            while(nums[r] != 0 && r >= 0) --r;
-            while(nums[l] != 2 && l < nums.size()) ++l;
-            
-            swap(nums[l], nums[r]);
+        int p0 = 0, p1 = 0;
+        for(int i = 0; i < nums.size(); i++){
+            if(nums[i] == 1){
+                swap(nums[i], nums[p1]);
+                ++p1;
+            }else if(nums[i] == 0){
+                swap(nums[i], nums[p0]);
+                if(p0 < p1){
+                    swap(nums[i], nums[p1]);
+                }
+                ++p0;
+                ++p1;
+            }
         }
     }
-    
-    
+
 };
 
 int main(){

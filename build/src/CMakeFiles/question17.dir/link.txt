@@ -1,1 +1,0 @@
-/usr/bin/c++  -ggdb -Wall -g   CMakeFiles/question17.dir/question17.cpp.o  -o question17 

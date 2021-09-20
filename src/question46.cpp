@@ -5,27 +5,38 @@ using namespace std;
 
 class Solution {
 public:
-    // TODO:不想写
+    
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> ans;
-        vector<int> tmp;
-        int len = nums.size();
-        dfs(nums, ans, tmp, len);
+        backtrack(ans, nums, 0, static_cast<int>(nums.size()));
+        return ans;
+        
     }
 
-    void dfs(vector<int>& nums, vector<vector<int>>& ans, vector<int>& tmp, int len){
-        if(tmp.size() == len){
-            ans.push_back(tmp);
+    void backtrack(vector<vector<int>>& res, vector<int>& output, int first, int len){
+        if(first == len){
+            res.emplace_back(output);
+            return;
         }
-        // 选这个
-        tmp.push_back(nums[0]);
-        
-        
-        // 不选这个
 
+        for(int i = first; i < len; ++i){
+            swap(output[i], output[first]);
+            backtrack(res, output, first + 1, len);
+            swap(output[i], output[first]);
+        }
     }
+
+    
 };
 
 int main(){
-
+    vector<int> nums{1, 2, 3};
+    Solution s;
+    auto ans = s.permute(nums);
+    for(auto num : ans){
+        for(auto n : num){
+            cout << n << " ";
+        }
+        cout << endl;
+    }
 }
