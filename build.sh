@@ -9,4 +9,4 @@ mkdir -p $BUILD_DIR \
     && cd $BUILD_DIR \
     && cmake -DCMAKE_BUILD_TYPE=$BUILD_TYPE \
         $SOURCE_DIR     \
-    && make $*
+    && make $* -j 4
