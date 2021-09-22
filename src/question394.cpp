@@ -2,45 +2,67 @@
 #include <vector>
 #include <unistd.h>
 #include <stack>
+#include <algorithm>
 
 using namespace std;
 
 class Solution {
 public:
-    string decodeString(string s) {
-        string ans;
-        
-        stack<int> cnts;
-        stack<string> strs;
-        int cnt = 0;
-        string tmp;
-        for(int i = 0; i < s.size(); ++i){
-            if(s[i] == '['){
-                tmp.clear();
-                continue;
-            }else if(s[i] == ']'){
-                // 做一个出栈的处理
-                strs.push(tmp);
-                cnt = cnts.top();
-                tmp = strs.top();
-                cnts.pop();
-                strs.pop();
-                for(int j = 0; j < cnt; j++){
-                    ans += tmp;
-                }
-            }else if(isdigit(s[i])){
-                // 如果遇到了数字，那么把之前的字符串放进去
-                strs.push(tmp);
+    string getDigits(string& s, size_t &ptr){
+        string ret = "";
+        while(isdigit(s[ptr])){
+            ret.push_back(s[ptr++]);
+        }
+        return ret;
+    }
 
-                
-                cnts.push(s[i] - '0');
+    string getString(vector<string> &v){
+        string ret;
+        for(const auto &s : v){
+            ret += s;
+        }
+        return ret;
+    }
+
+    // TODO:
+    string decodeString(string s) {
+        vector<string> stk;
+        size_t ptr = 0;
+
+        while (ptr < s.size())
+        {
+            char cur = s[ptr];
+            if(isdigit(cur)){
+                // 获取一个数字并入栈
+                string digits = getDigits(s, ptr);
+                stk.push_back(digits);
+            }else if(isalpha(cur) || cur == '['){
+                // 获取一个字母并进栈
+                stk.push_back(string(1, s[ptr++]));
             }else{
-                // 字母,需要进一步考虑
-                tmp += s[i];
+                ++ptr;
+                vector<string> sub;
+                while(stk.back() != "["){
+                    sub.push_back(stk.back());
+                    stk.pop_back();
+                }
+                reverse(sub.begin(), sub.end());
+                // 左括号出栈
+                stk.pop_back();
+
+                // 此时栈顶为当前sub对应的字符串应该出现的次数
+                int repTime = stoi(stk.back());
+                stk.pop_back();
+                string t,o = getString(sub);
+                // 构造字符串
+                while(repTime--) t += o;
+                // 将构造好的字符串入栈
+                stk.push_back(t);
             }
         }
 
-        return ans;
+        return getString(stk);
+        
     }
 };
 
