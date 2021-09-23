@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-7     CMakeFiles/question128.dir/question128.cpp.o  -o question128 
