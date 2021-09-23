@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/src/question394.cpp
+iostream
+-
+vector
+-
+unistd.h
+-
+stack
+-
+algorithm
+-
+
