@@ -12,7 +12,13 @@ struct ListNode {
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        
+        if(head == nullptr || head->next == nullptr){
+            return nullptr;
+        }
+        ListNode *slow = head, *fast = head->next;
+        while(slow != fast){
+            if(fast == nullptr || )
+        }
     }
 };
 
