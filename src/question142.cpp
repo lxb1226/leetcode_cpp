@@ -11,14 +11,26 @@ struct ListNode {
 
 class Solution {
 public:
+    // TODO:快慢指针
     ListNode *detectCycle(ListNode *head) {
-        if(head == nullptr || head->next == nullptr){
-            return nullptr;
+        ListNode* slow = head, *fast = head;
+        while(fast != nullptr){
+            slow = slow->next;
+            if(fast->next == nullptr){
+                return nullptr;
+            }
+
+            fast = fast->next->next;
+            if(fast == slow){
+                ListNode *ptr = head;
+                while(ptr != slow){
+                    ptr = ptr->next;
+                    slow = slow->next;
+                }
+                return ptr;
+            }
         }
-        ListNode *slow = head, *fast = head->next;
-        while(slow != fast){
-            if(fast == nullptr || )
-        }
+        return nullptr;
     }
 };
 

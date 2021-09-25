@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/question152.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question152.dir/rule
+.PHONY : src/CMakeFiles/question152.dir/rule
+
+# Convenience name for target.
+question152: src/CMakeFiles/question152.dir/rule
+
+.PHONY : question152
+
+# fast build rule for target.
+question152/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question152.dir/build.make src/CMakeFiles/question152.dir/build
+.PHONY : question152/fast
+
+# Convenience name for target.
 src/CMakeFiles/question141.dir/rule:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question141.dir/rule
 .PHONY : src/CMakeFiles/question141.dir/rule
@@ -1040,6 +1055,33 @@ question15.cpp.s:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/question15.cpp.s
 .PHONY : question15.cpp.s
 
+question152.o: question152.cpp.o
+
+.PHONY : question152.o
+
+# target to build an object file
+question152.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question152.dir/build.make src/CMakeFiles/question152.dir/question152.cpp.o
+.PHONY : question152.cpp.o
+
+question152.i: question152.cpp.i
+
+.PHONY : question152.i
+
+# target to preprocess a source file
+question152.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question152.dir/build.make src/CMakeFiles/question152.dir/question152.cpp.i
+.PHONY : question152.cpp.i
+
+question152.s: question152.cpp.s
+
+.PHONY : question152.s
+
+# target to generate assembly for a file
+question152.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question152.dir/build.make src/CMakeFiles/question152.dir/question152.cpp.s
+.PHONY : question152.cpp.s
+
 question16.o: question16.cpp.o
 
 .PHONY : question16.o
@@ -1966,6 +2008,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... question152"
 	@echo "... question141"
 	@echo "... question139"
 	@echo "... question128"
@@ -2040,6 +2083,9 @@ help:
 	@echo "... question15.o"
 	@echo "... question15.i"
 	@echo "... question15.s"
+	@echo "... question152.o"
+	@echo "... question152.i"
+	@echo "... question152.s"
 	@echo "... question16.o"
 	@echo "... question16.i"
 	@echo "... question16.s"
