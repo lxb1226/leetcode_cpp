@@ -32,7 +32,7 @@ public:
 
     // 法二：二进制
     // TODO：待看，涉及到了位运算
-    int findDuplicate(vector<int> &nums){
+    int findDuplicate1(vector<int> &nums){
         int n = nums.size(), ans = 0;
         int bit_max = 31;
         while(!(n - 1) >> bit_max){
@@ -60,7 +60,7 @@ public:
 
     // 法三：快慢指针 
     // TODO: 看不懂
-    int findDuplicate(vector<int> &nums){
+    int findDuplicate2(vector<int> &nums){
         int slow = 0, fast = 0;
         do{
             slow = nums[slow];
