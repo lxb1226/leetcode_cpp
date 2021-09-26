@@ -1,10 +1,12 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <unordered_map>
 
 using namespace std;
 
-struct TreeNode {
+struct TreeNode
+{
     int val;
     TreeNode *left;
     TreeNode *right;
@@ -13,45 +15,33 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-class Solution {
+class Solution
+{
 public:
-    int rob(TreeNode* root) {
-        // 1.首先进行树的层次遍历
-        queue<TreeNode*> q;
-        vector<int> nums;
-        q.push(root);
-        while(!q.empty()){
-            int size = q.size();
-            TreeNode* tmp;
-            int val = 0;
-            for(int i = 0; i < size; i++){
-                tmp = q.front();
-                q.pop();
-                val += tmp->val;
-                if(tmp->left){
-                    q.push(tmp->left);
-                }
-                if(tmp->right){
-                    q.push(tmp->right);
-                }
-            }
-            nums.push_back(val);
+    unordered_map<TreeNode *, int> f, g;
+
+    void dfs(TreeNode *node)
+    {
+        if (!node)
+        {
+            return;
         }
-        if(nums.size() == 1)
-            return nums[0];
-        if(nums.size() == 2)
-            return max(nums[0], nums[1]);
-        // 2.再动态规划
-        vector<int> dp(nums.size());
-        dp[0] = nums[0];
-        dp[1] = max(nums[0], nums[1]);
-        for(int i = 2; i < nums.size(); i++){
-            dp[i] = max(dp[i - 1], dp[i - 2] + nums[i]);
-        }   
-        return dp[dp.size() - 1];
+
+        dfs(node->left);
+        dfs(node->right);
+
+        f[node] = node->val + g[node->left] + g[node->right];
+        g[node] = max(f[node->left], g[node->left]) + max(f[node->right], g[node->right]);
+    }
+
+    // TODO:动态规划
+    int rob(TreeNode *root)
+    {
+        dfs(root);
+        return max(f[root], g[root]);
     }
 };
 
-int main(){
-
+int main()
+{
 }

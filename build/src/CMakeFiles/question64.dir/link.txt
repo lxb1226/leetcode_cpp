@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/question64.dir/question64.cpp.o  -o question64 
+/usr/bin/x86_64-linux-gnu-g++-7  -g   CMakeFiles/question64.dir/question64.cpp.o  -o question64 
