@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/leetcode_cpp
+CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/leetcode_cpp/build
+CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/leetcode_cpp/build/CMakeFiles /home/heyjude/workspace/projects/leetcode_cpp/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/leetcode_cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -109,6 +109,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named question322
+
+# Build rule for target.
+question322: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 question322
+.PHONY : question322
+
+# fast build rule for target.
+question322/fast:
+	$(MAKE) -f src/CMakeFiles/question322.dir/build.make src/CMakeFiles/question322.dir/build
+.PHONY : question322/fast
+
+#=============================================================================
+# Target rules for targets named question287
+
+# Build rule for target.
+question287: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 question287
+.PHONY : question287
+
+# fast build rule for target.
+question287/fast:
+	$(MAKE) -f src/CMakeFiles/question287.dir/build.make src/CMakeFiles/question287.dir/build
+.PHONY : question287/fast
 
 #=============================================================================
 # Target rules for targets named question283
@@ -174,6 +200,19 @@ question128: cmake_check_build_system
 question128/fast:
 	$(MAKE) -f src/CMakeFiles/question128.dir/build.make src/CMakeFiles/question128.dir/build
 .PHONY : question128/fast
+
+#=============================================================================
+# Target rules for targets named question206
+
+# Build rule for target.
+question206: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 question206
+.PHONY : question206
+
+# fast build rule for target.
+question206/fast:
+	$(MAKE) -f src/CMakeFiles/question206.dir/build.make src/CMakeFiles/question206.dir/build
+.PHONY : question206/fast
 
 #=============================================================================
 # Target rules for targets named question739
@@ -729,11 +768,14 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... question322"
+	@echo "... question287"
 	@echo "... question283"
 	@echo "... question215"
 	@echo "... question141"
 	@echo "... question139"
 	@echo "... question128"
+	@echo "... question206"
 	@echo "... question739"
 	@echo "... question238"
 	@echo "... question34"

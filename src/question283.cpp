@@ -28,7 +28,7 @@ public:
 
     // 法二：双指针,双指针指代的意义不一样
     // left指代当前已经处理好的序列的尾部，right指向待处理序列的头部
-    void moveZeroes(vector<int> &nums)
+    void moveZeroes1(vector<int> &nums)
     {
         int n = nums.size(), left = 0, right = 0;
         while (right < n)
