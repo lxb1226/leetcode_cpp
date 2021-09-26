@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/question48.dir/question48.cpp.o  -o question48 
