@@ -111,6 +111,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/question581.dir/rule:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question581.dir/rule
+.PHONY : src/CMakeFiles/question581.dir/rule
+
+# Convenience name for target.
+question581: src/CMakeFiles/question581.dir/rule
+
+.PHONY : question581
+
+# fast build rule for target.
+question581/fast:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/build
+.PHONY : question581/fast
+
+# Convenience name for target.
+src/CMakeFiles/question560.dir/rule:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question560.dir/rule
+.PHONY : src/CMakeFiles/question560.dir/rule
+
+# Convenience name for target.
+question560: src/CMakeFiles/question560.dir/rule
+
+.PHONY : question560
+
+# fast build rule for target.
+question560/fast:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/build
+.PHONY : question560/fast
+
+# Convenience name for target.
 src/CMakeFiles/question322.dir/rule:
 	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question322.dir/rule
 .PHONY : src/CMakeFiles/question322.dir/rule
@@ -1967,6 +1997,60 @@ question56.cpp.s:
 	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.s
 .PHONY : question56.cpp.s
 
+question560.o: question560.cpp.o
+
+.PHONY : question560.o
+
+# target to build an object file
+question560.cpp.o:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/question560.cpp.o
+.PHONY : question560.cpp.o
+
+question560.i: question560.cpp.i
+
+.PHONY : question560.i
+
+# target to preprocess a source file
+question560.cpp.i:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/question560.cpp.i
+.PHONY : question560.cpp.i
+
+question560.s: question560.cpp.s
+
+.PHONY : question560.s
+
+# target to generate assembly for a file
+question560.cpp.s:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/question560.cpp.s
+.PHONY : question560.cpp.s
+
+question581.o: question581.cpp.o
+
+.PHONY : question581.o
+
+# target to build an object file
+question581.cpp.o:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/question581.cpp.o
+.PHONY : question581.cpp.o
+
+question581.i: question581.cpp.i
+
+.PHONY : question581.i
+
+# target to preprocess a source file
+question581.cpp.i:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/question581.cpp.i
+.PHONY : question581.cpp.i
+
+question581.s: question581.cpp.s
+
+.PHONY : question581.s
+
+# target to generate assembly for a file
+question581.cpp.s:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/question581.cpp.s
+.PHONY : question581.cpp.s
+
 question62.o: question62.cpp.o
 
 .PHONY : question62.o
@@ -2218,6 +2302,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... question581"
+	@echo "... question560"
 	@echo "... question322"
 	@echo "... question287"
 	@echo "... question283"
@@ -2391,6 +2477,12 @@ help:
 	@echo "... question56.o"
 	@echo "... question56.i"
 	@echo "... question56.s"
+	@echo "... question560.o"
+	@echo "... question560.i"
+	@echo "... question560.s"
+	@echo "... question581.o"
+	@echo "... question581.i"
+	@echo "... question581.s"
 	@echo "... question62.o"
 	@echo "... question62.i"
 	@echo "... question62.s"
