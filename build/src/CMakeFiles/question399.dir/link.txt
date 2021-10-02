@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/question399.dir/question399.cpp.o  -o question399 
+/usr/bin/x86_64-linux-gnu-g++-7     CMakeFiles/question399.dir/question399.cpp.o  -o question399 
