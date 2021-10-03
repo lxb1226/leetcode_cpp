@@ -29,7 +29,11 @@ public:
     // 首先找到链表的中间结点作为头结点，中间结点的左边链表作为中间结点的左子树，右边链表作为中间结点的右子树
     TreeNode *sortedListToBST(ListNode *head)
     {
-        if (head)
+    }
+
+    TreeNode *helper(ListNode *head, ListNode *tail)
+    {
+        if (!head)
             return nullptr;
         TreeNode *root = new TreeNode();
         ListNode *slow = head, *fast = head;
@@ -39,11 +43,10 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
-        root->val = slow->next->val;
-        root->right = sortedListToBST(slow->next);
-        slow->next = nullptr;
-        root->left = sortedListToBST(head);
 
+        root->val = slow->val;
+        root->left = helper(head, slow);
+        root->right = helper(slow->next, tail);
         return root;
     }
 };
@@ -71,10 +74,22 @@ void printTree(TreeNode *root)
     }
 }
 
+void printList(ListNode *head)
+{
+    ListNode *tmp = head;
+    while (tmp)
+    {
+        cout << tmp->val << " ";
+        tmp = tmp->next;
+    }
+    cout << endl;
+}
+
 int main()
 {
     vector<int> nums{-10, -3, 0, 5, 9};
     ListNode *head = buildList(nums);
+
     Solution su;
     auto ans = su.sortedListToBST(head);
     printTree(ans);
