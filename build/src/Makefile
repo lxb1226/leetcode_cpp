@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/leetcode_cpp
+CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/leetcode_cpp/build
+CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/leetcode_cpp/build/CMakeFiles /home/heyjude/workspace/projects/leetcode_cpp/build/src/CMakeFiles/progress.marks
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/leetcode_cpp/build/CMakeFiles 0
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/src/CMakeFiles/progress.marks
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/question109.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question109.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question109.dir/rule
 .PHONY : src/CMakeFiles/question109.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ question109: src/CMakeFiles/question109.dir/rule
 
 # fast build rule for target.
 question109/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question109.dir/build.make src/CMakeFiles/question109.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question109.dir/build.make src/CMakeFiles/question109.dir/build
 .PHONY : question109/fast
 
 # Convenience name for target.
 src/CMakeFiles/question103.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question103.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question103.dir/rule
 .PHONY : src/CMakeFiles/question103.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ question103: src/CMakeFiles/question103.dir/rule
 
 # fast build rule for target.
 question103/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question103.dir/build.make src/CMakeFiles/question103.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question103.dir/build.make src/CMakeFiles/question103.dir/build
 .PHONY : question103/fast
 
 # Convenience name for target.
 src/CMakeFiles/question581.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question581.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question581.dir/rule
 .PHONY : src/CMakeFiles/question581.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ question581: src/CMakeFiles/question581.dir/rule
 
 # fast build rule for target.
 question581/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/build
 .PHONY : question581/fast
 
 # Convenience name for target.
 src/CMakeFiles/question560.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question560.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question560.dir/rule
 .PHONY : src/CMakeFiles/question560.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ question560: src/CMakeFiles/question560.dir/rule
 
 # fast build rule for target.
 question560/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/build
 .PHONY : question560/fast
 
 # Convenience name for target.
 src/CMakeFiles/question322.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question322.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question322.dir/rule
 .PHONY : src/CMakeFiles/question322.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ question322: src/CMakeFiles/question322.dir/rule
 
 # fast build rule for target.
 question322/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question322.dir/build.make src/CMakeFiles/question322.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question322.dir/build.make src/CMakeFiles/question322.dir/build
 .PHONY : question322/fast
 
 # Convenience name for target.
 src/CMakeFiles/question287.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question287.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question287.dir/rule
 .PHONY : src/CMakeFiles/question287.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ question287: src/CMakeFiles/question287.dir/rule
 
 # fast build rule for target.
 question287/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question287.dir/build.make src/CMakeFiles/question287.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question287.dir/build.make src/CMakeFiles/question287.dir/build
 .PHONY : question287/fast
 
 # Convenience name for target.
 src/CMakeFiles/question283.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question283.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question283.dir/rule
 .PHONY : src/CMakeFiles/question283.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ question283: src/CMakeFiles/question283.dir/rule
 
 # fast build rule for target.
 question283/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question283.dir/build.make src/CMakeFiles/question283.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question283.dir/build.make src/CMakeFiles/question283.dir/build
 .PHONY : question283/fast
 
 # Convenience name for target.
 src/CMakeFiles/question215.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question215.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question215.dir/rule
 .PHONY : src/CMakeFiles/question215.dir/rule
 
 # Convenience name for target.
@@ -227,12 +227,12 @@ question215: src/CMakeFiles/question215.dir/rule
 
 # fast build rule for target.
 question215/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question215.dir/build.make src/CMakeFiles/question215.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question215.dir/build.make src/CMakeFiles/question215.dir/build
 .PHONY : question215/fast
 
 # Convenience name for target.
 src/CMakeFiles/question141.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question141.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question141.dir/rule
 .PHONY : src/CMakeFiles/question141.dir/rule
 
 # Convenience name for target.
@@ -242,12 +242,12 @@ question141: src/CMakeFiles/question141.dir/rule
 
 # fast build rule for target.
 question141/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question141.dir/build.make src/CMakeFiles/question141.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question141.dir/build.make src/CMakeFiles/question141.dir/build
 .PHONY : question141/fast
 
 # Convenience name for target.
 src/CMakeFiles/question139.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question139.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question139.dir/rule
 .PHONY : src/CMakeFiles/question139.dir/rule
 
 # Convenience name for target.
@@ -257,12 +257,12 @@ question139: src/CMakeFiles/question139.dir/rule
 
 # fast build rule for target.
 question139/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question139.dir/build.make src/CMakeFiles/question139.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question139.dir/build.make src/CMakeFiles/question139.dir/build
 .PHONY : question139/fast
 
 # Convenience name for target.
 src/CMakeFiles/question128.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question128.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question128.dir/rule
 .PHONY : src/CMakeFiles/question128.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ question128: src/CMakeFiles/question128.dir/rule
 
 # fast build rule for target.
 question128/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question128.dir/build.make src/CMakeFiles/question128.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question128.dir/build.make src/CMakeFiles/question128.dir/build
 .PHONY : question128/fast
 
 # Convenience name for target.
 src/CMakeFiles/question206.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question206.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question206.dir/rule
 .PHONY : src/CMakeFiles/question206.dir/rule
 
 # Convenience name for target.
@@ -287,12 +287,12 @@ question206: src/CMakeFiles/question206.dir/rule
 
 # fast build rule for target.
 question206/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question206.dir/build.make src/CMakeFiles/question206.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question206.dir/build.make src/CMakeFiles/question206.dir/build
 .PHONY : question206/fast
 
 # Convenience name for target.
 src/CMakeFiles/question739.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question739.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question739.dir/rule
 .PHONY : src/CMakeFiles/question739.dir/rule
 
 # Convenience name for target.
@@ -302,12 +302,12 @@ question739: src/CMakeFiles/question739.dir/rule
 
 # fast build rule for target.
 question739/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question739.dir/build.make src/CMakeFiles/question739.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question739.dir/build.make src/CMakeFiles/question739.dir/build
 .PHONY : question739/fast
 
 # Convenience name for target.
 src/CMakeFiles/question234.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question234.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question234.dir/rule
 .PHONY : src/CMakeFiles/question234.dir/rule
 
 # Convenience name for target.
@@ -317,12 +317,12 @@ question234: src/CMakeFiles/question234.dir/rule
 
 # fast build rule for target.
 question234/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question234.dir/build.make src/CMakeFiles/question234.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question234.dir/build.make src/CMakeFiles/question234.dir/build
 .PHONY : question234/fast
 
 # Convenience name for target.
 src/CMakeFiles/question238.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question238.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question238.dir/rule
 .PHONY : src/CMakeFiles/question238.dir/rule
 
 # Convenience name for target.
@@ -332,12 +332,12 @@ question238: src/CMakeFiles/question238.dir/rule
 
 # fast build rule for target.
 question238/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question238.dir/build.make src/CMakeFiles/question238.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question238.dir/build.make src/CMakeFiles/question238.dir/build
 .PHONY : question238/fast
 
 # Convenience name for target.
 src/CMakeFiles/question107.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question107.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question107.dir/rule
 .PHONY : src/CMakeFiles/question107.dir/rule
 
 # Convenience name for target.
@@ -347,12 +347,12 @@ question107: src/CMakeFiles/question107.dir/rule
 
 # fast build rule for target.
 question107/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question107.dir/build.make src/CMakeFiles/question107.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question107.dir/build.make src/CMakeFiles/question107.dir/build
 .PHONY : question107/fast
 
 # Convenience name for target.
 src/CMakeFiles/question34.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question34.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question34.dir/rule
 .PHONY : src/CMakeFiles/question34.dir/rule
 
 # Convenience name for target.
@@ -362,12 +362,12 @@ question34: src/CMakeFiles/question34.dir/rule
 
 # fast build rule for target.
 question34/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/build
 .PHONY : question34/fast
 
 # Convenience name for target.
 src/CMakeFiles/question39.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question39.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question39.dir/rule
 .PHONY : src/CMakeFiles/question39.dir/rule
 
 # Convenience name for target.
@@ -377,12 +377,12 @@ question39: src/CMakeFiles/question39.dir/rule
 
 # fast build rule for target.
 question39/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/build
 .PHONY : question39/fast
 
 # Convenience name for target.
 src/CMakeFiles/question16.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question16.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question16.dir/rule
 .PHONY : src/CMakeFiles/question16.dir/rule
 
 # Convenience name for target.
@@ -392,12 +392,12 @@ question16: src/CMakeFiles/question16.dir/rule
 
 # fast build rule for target.
 question16/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question16.dir/build.make src/CMakeFiles/question16.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question16.dir/build.make src/CMakeFiles/question16.dir/build
 .PHONY : question16/fast
 
 # Convenience name for target.
 src/CMakeFiles/question55.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question55.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question55.dir/rule
 .PHONY : src/CMakeFiles/question55.dir/rule
 
 # Convenience name for target.
@@ -407,12 +407,12 @@ question55: src/CMakeFiles/question55.dir/rule
 
 # fast build rule for target.
 question55/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question55.dir/build.make src/CMakeFiles/question55.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question55.dir/build.make src/CMakeFiles/question55.dir/build
 .PHONY : question55/fast
 
 # Convenience name for target.
 src/CMakeFiles/question56.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question56.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question56.dir/rule
 .PHONY : src/CMakeFiles/question56.dir/rule
 
 # Convenience name for target.
@@ -422,12 +422,12 @@ question56: src/CMakeFiles/question56.dir/rule
 
 # fast build rule for target.
 question56/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/build
 .PHONY : question56/fast
 
 # Convenience name for target.
 src/CMakeFiles/question15.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question15.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question15.dir/rule
 .PHONY : src/CMakeFiles/question15.dir/rule
 
 # Convenience name for target.
@@ -437,12 +437,12 @@ question15: src/CMakeFiles/question15.dir/rule
 
 # fast build rule for target.
 question15/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/build
 .PHONY : question15/fast
 
 # Convenience name for target.
 src/CMakeFiles/question33.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question33.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question33.dir/rule
 .PHONY : src/CMakeFiles/question33.dir/rule
 
 # Convenience name for target.
@@ -452,12 +452,12 @@ question33: src/CMakeFiles/question33.dir/rule
 
 # fast build rule for target.
 question33/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/build
 .PHONY : question33/fast
 
 # Convenience name for target.
 src/CMakeFiles/question399.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question399.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question399.dir/rule
 .PHONY : src/CMakeFiles/question399.dir/rule
 
 # Convenience name for target.
@@ -467,12 +467,12 @@ question399: src/CMakeFiles/question399.dir/rule
 
 # fast build rule for target.
 question399/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question399.dir/build.make src/CMakeFiles/question399.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question399.dir/build.make src/CMakeFiles/question399.dir/build
 .PHONY : question399/fast
 
 # Convenience name for target.
 src/CMakeFiles/question394.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question394.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question394.dir/rule
 .PHONY : src/CMakeFiles/question394.dir/rule
 
 # Convenience name for target.
@@ -482,12 +482,12 @@ question394: src/CMakeFiles/question394.dir/rule
 
 # fast build rule for target.
 question394/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question394.dir/build.make src/CMakeFiles/question394.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question394.dir/build.make src/CMakeFiles/question394.dir/build
 .PHONY : question394/fast
 
 # Convenience name for target.
 src/CMakeFiles/question347.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question347.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question347.dir/rule
 .PHONY : src/CMakeFiles/question347.dir/rule
 
 # Convenience name for target.
@@ -497,12 +497,12 @@ question347: src/CMakeFiles/question347.dir/rule
 
 # fast build rule for target.
 question347/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question347.dir/build.make src/CMakeFiles/question347.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question347.dir/build.make src/CMakeFiles/question347.dir/build
 .PHONY : question347/fast
 
 # Convenience name for target.
 src/CMakeFiles/question204.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question204.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question204.dir/rule
 .PHONY : src/CMakeFiles/question204.dir/rule
 
 # Convenience name for target.
@@ -512,12 +512,12 @@ question204: src/CMakeFiles/question204.dir/rule
 
 # fast build rule for target.
 question204/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/build
 .PHONY : question204/fast
 
 # Convenience name for target.
 src/CMakeFiles/question119.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question119.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question119.dir/rule
 .PHONY : src/CMakeFiles/question119.dir/rule
 
 # Convenience name for target.
@@ -527,12 +527,12 @@ question119: src/CMakeFiles/question119.dir/rule
 
 # fast build rule for target.
 question119/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question119.dir/build.make src/CMakeFiles/question119.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question119.dir/build.make src/CMakeFiles/question119.dir/build
 .PHONY : question119/fast
 
 # Convenience name for target.
 src/CMakeFiles/question48.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question48.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question48.dir/rule
 .PHONY : src/CMakeFiles/question48.dir/rule
 
 # Convenience name for target.
@@ -542,12 +542,12 @@ question48: src/CMakeFiles/question48.dir/rule
 
 # fast build rule for target.
 question48/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/build
 .PHONY : question48/fast
 
 # Convenience name for target.
 src/CMakeFiles/question169.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question169.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question169.dir/rule
 .PHONY : src/CMakeFiles/question169.dir/rule
 
 # Convenience name for target.
@@ -557,12 +557,12 @@ question169: src/CMakeFiles/question169.dir/rule
 
 # fast build rule for target.
 question169/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question169.dir/build.make src/CMakeFiles/question169.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question169.dir/build.make src/CMakeFiles/question169.dir/build
 .PHONY : question169/fast
 
 # Convenience name for target.
 src/CMakeFiles/question78.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question78.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question78.dir/rule
 .PHONY : src/CMakeFiles/question78.dir/rule
 
 # Convenience name for target.
@@ -572,12 +572,12 @@ question78: src/CMakeFiles/question78.dir/rule
 
 # fast build rule for target.
 question78/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/build
 .PHONY : question78/fast
 
 # Convenience name for target.
 src/CMakeFiles/question167.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question167.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question167.dir/rule
 .PHONY : src/CMakeFiles/question167.dir/rule
 
 # Convenience name for target.
@@ -587,12 +587,12 @@ question167: src/CMakeFiles/question167.dir/rule
 
 # fast build rule for target.
 question167/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question167.dir/build.make src/CMakeFiles/question167.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question167.dir/build.make src/CMakeFiles/question167.dir/build
 .PHONY : question167/fast
 
 # Convenience name for target.
 src/CMakeFiles/question19.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question19.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question19.dir/rule
 .PHONY : src/CMakeFiles/question19.dir/rule
 
 # Convenience name for target.
@@ -602,12 +602,12 @@ question19: src/CMakeFiles/question19.dir/rule
 
 # fast build rule for target.
 question19/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/build
 .PHONY : question19/fast
 
 # Convenience name for target.
 src/CMakeFiles/question62.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question62.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question62.dir/rule
 .PHONY : src/CMakeFiles/question62.dir/rule
 
 # Convenience name for target.
@@ -617,12 +617,12 @@ question62: src/CMakeFiles/question62.dir/rule
 
 # fast build rule for target.
 question62/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/build
 .PHONY : question62/fast
 
 # Convenience name for target.
 src/CMakeFiles/question88.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question88.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question88.dir/rule
 .PHONY : src/CMakeFiles/question88.dir/rule
 
 # Convenience name for target.
@@ -632,12 +632,12 @@ question88: src/CMakeFiles/question88.dir/rule
 
 # fast build rule for target.
 question88/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/build
 .PHONY : question88/fast
 
 # Convenience name for target.
 src/CMakeFiles/question31.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question31.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question31.dir/rule
 .PHONY : src/CMakeFiles/question31.dir/rule
 
 # Convenience name for target.
@@ -647,12 +647,12 @@ question31: src/CMakeFiles/question31.dir/rule
 
 # fast build rule for target.
 question31/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/build
 .PHONY : question31/fast
 
 # Convenience name for target.
 src/CMakeFiles/question118.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question118.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question118.dir/rule
 .PHONY : src/CMakeFiles/question118.dir/rule
 
 # Convenience name for target.
@@ -662,12 +662,12 @@ question118: src/CMakeFiles/question118.dir/rule
 
 # fast build rule for target.
 question118/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question118.dir/build.make src/CMakeFiles/question118.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question118.dir/build.make src/CMakeFiles/question118.dir/build
 .PHONY : question118/fast
 
 # Convenience name for target.
 src/CMakeFiles/question66.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question66.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question66.dir/rule
 .PHONY : src/CMakeFiles/question66.dir/rule
 
 # Convenience name for target.
@@ -677,12 +677,12 @@ question66: src/CMakeFiles/question66.dir/rule
 
 # fast build rule for target.
 question66/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/build
 .PHONY : question66/fast
 
 # Convenience name for target.
 src/CMakeFiles/question279.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question279.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question279.dir/rule
 .PHONY : src/CMakeFiles/question279.dir/rule
 
 # Convenience name for target.
@@ -692,12 +692,12 @@ question279: src/CMakeFiles/question279.dir/rule
 
 # fast build rule for target.
 question279/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question279.dir/build.make src/CMakeFiles/question279.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question279.dir/build.make src/CMakeFiles/question279.dir/build
 .PHONY : question279/fast
 
 # Convenience name for target.
 src/CMakeFiles/question121.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question121.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question121.dir/rule
 .PHONY : src/CMakeFiles/question121.dir/rule
 
 # Convenience name for target.
@@ -707,12 +707,12 @@ question121: src/CMakeFiles/question121.dir/rule
 
 # fast build rule for target.
 question121/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question121.dir/build.make src/CMakeFiles/question121.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question121.dir/build.make src/CMakeFiles/question121.dir/build
 .PHONY : question121/fast
 
 # Convenience name for target.
 src/CMakeFiles/question136.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question136.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question136.dir/rule
 .PHONY : src/CMakeFiles/question136.dir/rule
 
 # Convenience name for target.
@@ -722,12 +722,12 @@ question136: src/CMakeFiles/question136.dir/rule
 
 # fast build rule for target.
 question136/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question136.dir/build.make src/CMakeFiles/question136.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question136.dir/build.make src/CMakeFiles/question136.dir/build
 .PHONY : question136/fast
 
 # Convenience name for target.
 src/CMakeFiles/question45.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question45.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question45.dir/rule
 .PHONY : src/CMakeFiles/question45.dir/rule
 
 # Convenience name for target.
@@ -737,12 +737,12 @@ question45: src/CMakeFiles/question45.dir/rule
 
 # fast build rule for target.
 question45/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/build
 .PHONY : question45/fast
 
 # Convenience name for target.
 src/CMakeFiles/question64.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question64.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question64.dir/rule
 .PHONY : src/CMakeFiles/question64.dir/rule
 
 # Convenience name for target.
@@ -752,12 +752,12 @@ question64: src/CMakeFiles/question64.dir/rule
 
 # fast build rule for target.
 question64/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/build
 .PHONY : question64/fast
 
 # Convenience name for target.
 src/CMakeFiles/question75.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question75.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question75.dir/rule
 .PHONY : src/CMakeFiles/question75.dir/rule
 
 # Convenience name for target.
@@ -767,12 +767,12 @@ question75: src/CMakeFiles/question75.dir/rule
 
 # fast build rule for target.
 question75/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/build
 .PHONY : question75/fast
 
 # Convenience name for target.
 src/CMakeFiles/question40.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question40.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question40.dir/rule
 .PHONY : src/CMakeFiles/question40.dir/rule
 
 # Convenience name for target.
@@ -782,12 +782,12 @@ question40: src/CMakeFiles/question40.dir/rule
 
 # fast build rule for target.
 question40/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/build
 .PHONY : question40/fast
 
 # Convenience name for target.
 src/CMakeFiles/question2.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question2.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question2.dir/rule
 .PHONY : src/CMakeFiles/question2.dir/rule
 
 # Convenience name for target.
@@ -797,12 +797,12 @@ question2: src/CMakeFiles/question2.dir/rule
 
 # fast build rule for target.
 question2/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/build
 .PHONY : question2/fast
 
 # Convenience name for target.
 src/CMakeFiles/question461.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question461.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question461.dir/rule
 .PHONY : src/CMakeFiles/question461.dir/rule
 
 # Convenience name for target.
@@ -812,12 +812,12 @@ question461: src/CMakeFiles/question461.dir/rule
 
 # fast build rule for target.
 question461/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question461.dir/build.make src/CMakeFiles/question461.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question461.dir/build.make src/CMakeFiles/question461.dir/build
 .PHONY : question461/fast
 
 # Convenience name for target.
 src/CMakeFiles/question198.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question198.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question198.dir/rule
 .PHONY : src/CMakeFiles/question198.dir/rule
 
 # Convenience name for target.
@@ -827,12 +827,12 @@ question198: src/CMakeFiles/question198.dir/rule
 
 # fast build rule for target.
 question198/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question198.dir/build.make src/CMakeFiles/question198.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question198.dir/build.make src/CMakeFiles/question198.dir/build
 .PHONY : question198/fast
 
 # Convenience name for target.
 src/CMakeFiles/question21.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question21.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question21.dir/rule
 .PHONY : src/CMakeFiles/question21.dir/rule
 
 # Convenience name for target.
@@ -842,12 +842,12 @@ question21: src/CMakeFiles/question21.dir/rule
 
 # fast build rule for target.
 question21/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question21.dir/build.make src/CMakeFiles/question21.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question21.dir/build.make src/CMakeFiles/question21.dir/build
 .PHONY : question21/fast
 
 # Convenience name for target.
 src/CMakeFiles/question17.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question17.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question17.dir/rule
 .PHONY : src/CMakeFiles/question17.dir/rule
 
 # Convenience name for target.
@@ -857,12 +857,12 @@ question17: src/CMakeFiles/question17.dir/rule
 
 # fast build rule for target.
 question17/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/build
 .PHONY : question17/fast
 
 # Convenience name for target.
 src/CMakeFiles/question102.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question102.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question102.dir/rule
 .PHONY : src/CMakeFiles/question102.dir/rule
 
 # Convenience name for target.
@@ -872,12 +872,12 @@ question102: src/CMakeFiles/question102.dir/rule
 
 # fast build rule for target.
 question102/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question102.dir/build.make src/CMakeFiles/question102.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question102.dir/build.make src/CMakeFiles/question102.dir/build
 .PHONY : question102/fast
 
 # Convenience name for target.
 src/CMakeFiles/question22.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question22.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question22.dir/rule
 .PHONY : src/CMakeFiles/question22.dir/rule
 
 # Convenience name for target.
@@ -887,12 +887,12 @@ question22: src/CMakeFiles/question22.dir/rule
 
 # fast build rule for target.
 question22/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question22.dir/build.make src/CMakeFiles/question22.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question22.dir/build.make src/CMakeFiles/question22.dir/build
 .PHONY : question22/fast
 
 # Convenience name for target.
 src/CMakeFiles/question11.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question11.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question11.dir/rule
 .PHONY : src/CMakeFiles/question11.dir/rule
 
 # Convenience name for target.
@@ -902,12 +902,12 @@ question11: src/CMakeFiles/question11.dir/rule
 
 # fast build rule for target.
 question11/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question11.dir/build.make src/CMakeFiles/question11.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question11.dir/build.make src/CMakeFiles/question11.dir/build
 .PHONY : question11/fast
 
 # Convenience name for target.
 src/CMakeFiles/question46.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question46.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question46.dir/rule
 .PHONY : src/CMakeFiles/question46.dir/rule
 
 # Convenience name for target.
@@ -917,12 +917,12 @@ question46: src/CMakeFiles/question46.dir/rule
 
 # fast build rule for target.
 question46/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question46.dir/build.make src/CMakeFiles/question46.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question46.dir/build.make src/CMakeFiles/question46.dir/build
 .PHONY : question46/fast
 
 # Convenience name for target.
 src/CMakeFiles/question74.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question74.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question74.dir/rule
 .PHONY : src/CMakeFiles/question74.dir/rule
 
 # Convenience name for target.
@@ -932,12 +932,12 @@ question74: src/CMakeFiles/question74.dir/rule
 
 # fast build rule for target.
 question74/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/build
 .PHONY : question74/fast
 
 # Convenience name for target.
 src/CMakeFiles/question20.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question20.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question20.dir/rule
 .PHONY : src/CMakeFiles/question20.dir/rule
 
 # Convenience name for target.
@@ -947,12 +947,12 @@ question20: src/CMakeFiles/question20.dir/rule
 
 # fast build rule for target.
 question20/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question20.dir/build.make src/CMakeFiles/question20.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question20.dir/build.make src/CMakeFiles/question20.dir/build
 .PHONY : question20/fast
 
 # Convenience name for target.
 src/CMakeFiles/question70.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question70.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question70.dir/rule
 .PHONY : src/CMakeFiles/question70.dir/rule
 
 # Convenience name for target.
@@ -962,7 +962,7 @@ question70: src/CMakeFiles/question70.dir/rule
 
 # fast build rule for target.
 question70/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question70.dir/build.make src/CMakeFiles/question70.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question70.dir/build.make src/CMakeFiles/question70.dir/build
 .PHONY : question70/fast
 
 question102.o: question102.cpp.o
@@ -971,7 +971,7 @@ question102.o: question102.cpp.o
 
 # target to build an object file
 question102.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question102.dir/build.make src/CMakeFiles/question102.dir/question102.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question102.dir/build.make src/CMakeFiles/question102.dir/question102.cpp.o
 .PHONY : question102.cpp.o
 
 question102.i: question102.cpp.i
@@ -980,7 +980,7 @@ question102.i: question102.cpp.i
 
 # target to preprocess a source file
 question102.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question102.dir/build.make src/CMakeFiles/question102.dir/question102.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question102.dir/build.make src/CMakeFiles/question102.dir/question102.cpp.i
 .PHONY : question102.cpp.i
 
 question102.s: question102.cpp.s
@@ -989,7 +989,7 @@ question102.s: question102.cpp.s
 
 # target to generate assembly for a file
 question102.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question102.dir/build.make src/CMakeFiles/question102.dir/question102.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question102.dir/build.make src/CMakeFiles/question102.dir/question102.cpp.s
 .PHONY : question102.cpp.s
 
 question103.o: question103.cpp.o
@@ -998,7 +998,7 @@ question103.o: question103.cpp.o
 
 # target to build an object file
 question103.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question103.dir/build.make src/CMakeFiles/question103.dir/question103.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question103.dir/build.make src/CMakeFiles/question103.dir/question103.cpp.o
 .PHONY : question103.cpp.o
 
 question103.i: question103.cpp.i
@@ -1007,7 +1007,7 @@ question103.i: question103.cpp.i
 
 # target to preprocess a source file
 question103.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question103.dir/build.make src/CMakeFiles/question103.dir/question103.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question103.dir/build.make src/CMakeFiles/question103.dir/question103.cpp.i
 .PHONY : question103.cpp.i
 
 question103.s: question103.cpp.s
@@ -1016,7 +1016,7 @@ question103.s: question103.cpp.s
 
 # target to generate assembly for a file
 question103.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question103.dir/build.make src/CMakeFiles/question103.dir/question103.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question103.dir/build.make src/CMakeFiles/question103.dir/question103.cpp.s
 .PHONY : question103.cpp.s
 
 question107.o: question107.cpp.o
@@ -1025,7 +1025,7 @@ question107.o: question107.cpp.o
 
 # target to build an object file
 question107.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question107.dir/build.make src/CMakeFiles/question107.dir/question107.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question107.dir/build.make src/CMakeFiles/question107.dir/question107.cpp.o
 .PHONY : question107.cpp.o
 
 question107.i: question107.cpp.i
@@ -1034,7 +1034,7 @@ question107.i: question107.cpp.i
 
 # target to preprocess a source file
 question107.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question107.dir/build.make src/CMakeFiles/question107.dir/question107.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question107.dir/build.make src/CMakeFiles/question107.dir/question107.cpp.i
 .PHONY : question107.cpp.i
 
 question107.s: question107.cpp.s
@@ -1043,7 +1043,7 @@ question107.s: question107.cpp.s
 
 # target to generate assembly for a file
 question107.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question107.dir/build.make src/CMakeFiles/question107.dir/question107.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question107.dir/build.make src/CMakeFiles/question107.dir/question107.cpp.s
 .PHONY : question107.cpp.s
 
 question109.o: question109.cpp.o
@@ -1052,7 +1052,7 @@ question109.o: question109.cpp.o
 
 # target to build an object file
 question109.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question109.dir/build.make src/CMakeFiles/question109.dir/question109.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question109.dir/build.make src/CMakeFiles/question109.dir/question109.cpp.o
 .PHONY : question109.cpp.o
 
 question109.i: question109.cpp.i
@@ -1061,7 +1061,7 @@ question109.i: question109.cpp.i
 
 # target to preprocess a source file
 question109.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question109.dir/build.make src/CMakeFiles/question109.dir/question109.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question109.dir/build.make src/CMakeFiles/question109.dir/question109.cpp.i
 .PHONY : question109.cpp.i
 
 question109.s: question109.cpp.s
@@ -1070,7 +1070,7 @@ question109.s: question109.cpp.s
 
 # target to generate assembly for a file
 question109.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question109.dir/build.make src/CMakeFiles/question109.dir/question109.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question109.dir/build.make src/CMakeFiles/question109.dir/question109.cpp.s
 .PHONY : question109.cpp.s
 
 question11.o: question11.cpp.o
@@ -1079,7 +1079,7 @@ question11.o: question11.cpp.o
 
 # target to build an object file
 question11.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question11.dir/build.make src/CMakeFiles/question11.dir/question11.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question11.dir/build.make src/CMakeFiles/question11.dir/question11.cpp.o
 .PHONY : question11.cpp.o
 
 question11.i: question11.cpp.i
@@ -1088,7 +1088,7 @@ question11.i: question11.cpp.i
 
 # target to preprocess a source file
 question11.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question11.dir/build.make src/CMakeFiles/question11.dir/question11.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question11.dir/build.make src/CMakeFiles/question11.dir/question11.cpp.i
 .PHONY : question11.cpp.i
 
 question11.s: question11.cpp.s
@@ -1097,7 +1097,7 @@ question11.s: question11.cpp.s
 
 # target to generate assembly for a file
 question11.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question11.dir/build.make src/CMakeFiles/question11.dir/question11.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question11.dir/build.make src/CMakeFiles/question11.dir/question11.cpp.s
 .PHONY : question11.cpp.s
 
 question118.o: question118.cpp.o
@@ -1106,7 +1106,7 @@ question118.o: question118.cpp.o
 
 # target to build an object file
 question118.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question118.dir/build.make src/CMakeFiles/question118.dir/question118.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question118.dir/build.make src/CMakeFiles/question118.dir/question118.cpp.o
 .PHONY : question118.cpp.o
 
 question118.i: question118.cpp.i
@@ -1115,7 +1115,7 @@ question118.i: question118.cpp.i
 
 # target to preprocess a source file
 question118.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question118.dir/build.make src/CMakeFiles/question118.dir/question118.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question118.dir/build.make src/CMakeFiles/question118.dir/question118.cpp.i
 .PHONY : question118.cpp.i
 
 question118.s: question118.cpp.s
@@ -1124,7 +1124,7 @@ question118.s: question118.cpp.s
 
 # target to generate assembly for a file
 question118.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question118.dir/build.make src/CMakeFiles/question118.dir/question118.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question118.dir/build.make src/CMakeFiles/question118.dir/question118.cpp.s
 .PHONY : question118.cpp.s
 
 question119.o: question119.cpp.o
@@ -1133,7 +1133,7 @@ question119.o: question119.cpp.o
 
 # target to build an object file
 question119.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question119.dir/build.make src/CMakeFiles/question119.dir/question119.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question119.dir/build.make src/CMakeFiles/question119.dir/question119.cpp.o
 .PHONY : question119.cpp.o
 
 question119.i: question119.cpp.i
@@ -1142,7 +1142,7 @@ question119.i: question119.cpp.i
 
 # target to preprocess a source file
 question119.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question119.dir/build.make src/CMakeFiles/question119.dir/question119.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question119.dir/build.make src/CMakeFiles/question119.dir/question119.cpp.i
 .PHONY : question119.cpp.i
 
 question119.s: question119.cpp.s
@@ -1151,7 +1151,7 @@ question119.s: question119.cpp.s
 
 # target to generate assembly for a file
 question119.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question119.dir/build.make src/CMakeFiles/question119.dir/question119.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question119.dir/build.make src/CMakeFiles/question119.dir/question119.cpp.s
 .PHONY : question119.cpp.s
 
 question121.o: question121.cpp.o
@@ -1160,7 +1160,7 @@ question121.o: question121.cpp.o
 
 # target to build an object file
 question121.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question121.dir/build.make src/CMakeFiles/question121.dir/question121.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question121.dir/build.make src/CMakeFiles/question121.dir/question121.cpp.o
 .PHONY : question121.cpp.o
 
 question121.i: question121.cpp.i
@@ -1169,7 +1169,7 @@ question121.i: question121.cpp.i
 
 # target to preprocess a source file
 question121.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question121.dir/build.make src/CMakeFiles/question121.dir/question121.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question121.dir/build.make src/CMakeFiles/question121.dir/question121.cpp.i
 .PHONY : question121.cpp.i
 
 question121.s: question121.cpp.s
@@ -1178,7 +1178,7 @@ question121.s: question121.cpp.s
 
 # target to generate assembly for a file
 question121.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question121.dir/build.make src/CMakeFiles/question121.dir/question121.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question121.dir/build.make src/CMakeFiles/question121.dir/question121.cpp.s
 .PHONY : question121.cpp.s
 
 question128.o: question128.cpp.o
@@ -1187,7 +1187,7 @@ question128.o: question128.cpp.o
 
 # target to build an object file
 question128.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question128.dir/build.make src/CMakeFiles/question128.dir/question128.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question128.dir/build.make src/CMakeFiles/question128.dir/question128.cpp.o
 .PHONY : question128.cpp.o
 
 question128.i: question128.cpp.i
@@ -1196,7 +1196,7 @@ question128.i: question128.cpp.i
 
 # target to preprocess a source file
 question128.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question128.dir/build.make src/CMakeFiles/question128.dir/question128.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question128.dir/build.make src/CMakeFiles/question128.dir/question128.cpp.i
 .PHONY : question128.cpp.i
 
 question128.s: question128.cpp.s
@@ -1205,7 +1205,7 @@ question128.s: question128.cpp.s
 
 # target to generate assembly for a file
 question128.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question128.dir/build.make src/CMakeFiles/question128.dir/question128.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question128.dir/build.make src/CMakeFiles/question128.dir/question128.cpp.s
 .PHONY : question128.cpp.s
 
 question136.o: question136.cpp.o
@@ -1214,7 +1214,7 @@ question136.o: question136.cpp.o
 
 # target to build an object file
 question136.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question136.dir/build.make src/CMakeFiles/question136.dir/question136.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question136.dir/build.make src/CMakeFiles/question136.dir/question136.cpp.o
 .PHONY : question136.cpp.o
 
 question136.i: question136.cpp.i
@@ -1223,7 +1223,7 @@ question136.i: question136.cpp.i
 
 # target to preprocess a source file
 question136.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question136.dir/build.make src/CMakeFiles/question136.dir/question136.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question136.dir/build.make src/CMakeFiles/question136.dir/question136.cpp.i
 .PHONY : question136.cpp.i
 
 question136.s: question136.cpp.s
@@ -1232,7 +1232,7 @@ question136.s: question136.cpp.s
 
 # target to generate assembly for a file
 question136.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question136.dir/build.make src/CMakeFiles/question136.dir/question136.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question136.dir/build.make src/CMakeFiles/question136.dir/question136.cpp.s
 .PHONY : question136.cpp.s
 
 question139.o: question139.cpp.o
@@ -1241,7 +1241,7 @@ question139.o: question139.cpp.o
 
 # target to build an object file
 question139.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question139.dir/build.make src/CMakeFiles/question139.dir/question139.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question139.dir/build.make src/CMakeFiles/question139.dir/question139.cpp.o
 .PHONY : question139.cpp.o
 
 question139.i: question139.cpp.i
@@ -1250,7 +1250,7 @@ question139.i: question139.cpp.i
 
 # target to preprocess a source file
 question139.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question139.dir/build.make src/CMakeFiles/question139.dir/question139.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question139.dir/build.make src/CMakeFiles/question139.dir/question139.cpp.i
 .PHONY : question139.cpp.i
 
 question139.s: question139.cpp.s
@@ -1259,7 +1259,7 @@ question139.s: question139.cpp.s
 
 # target to generate assembly for a file
 question139.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question139.dir/build.make src/CMakeFiles/question139.dir/question139.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question139.dir/build.make src/CMakeFiles/question139.dir/question139.cpp.s
 .PHONY : question139.cpp.s
 
 question141.o: question141.cpp.o
@@ -1268,7 +1268,7 @@ question141.o: question141.cpp.o
 
 # target to build an object file
 question141.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question141.dir/build.make src/CMakeFiles/question141.dir/question141.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question141.dir/build.make src/CMakeFiles/question141.dir/question141.cpp.o
 .PHONY : question141.cpp.o
 
 question141.i: question141.cpp.i
@@ -1277,7 +1277,7 @@ question141.i: question141.cpp.i
 
 # target to preprocess a source file
 question141.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question141.dir/build.make src/CMakeFiles/question141.dir/question141.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question141.dir/build.make src/CMakeFiles/question141.dir/question141.cpp.i
 .PHONY : question141.cpp.i
 
 question141.s: question141.cpp.s
@@ -1286,7 +1286,7 @@ question141.s: question141.cpp.s
 
 # target to generate assembly for a file
 question141.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question141.dir/build.make src/CMakeFiles/question141.dir/question141.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question141.dir/build.make src/CMakeFiles/question141.dir/question141.cpp.s
 .PHONY : question141.cpp.s
 
 question15.o: question15.cpp.o
@@ -1295,7 +1295,7 @@ question15.o: question15.cpp.o
 
 # target to build an object file
 question15.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/question15.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/question15.cpp.o
 .PHONY : question15.cpp.o
 
 question15.i: question15.cpp.i
@@ -1304,7 +1304,7 @@ question15.i: question15.cpp.i
 
 # target to preprocess a source file
 question15.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/question15.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/question15.cpp.i
 .PHONY : question15.cpp.i
 
 question15.s: question15.cpp.s
@@ -1313,7 +1313,7 @@ question15.s: question15.cpp.s
 
 # target to generate assembly for a file
 question15.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/question15.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question15.dir/build.make src/CMakeFiles/question15.dir/question15.cpp.s
 .PHONY : question15.cpp.s
 
 question16.o: question16.cpp.o
@@ -1322,7 +1322,7 @@ question16.o: question16.cpp.o
 
 # target to build an object file
 question16.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question16.dir/build.make src/CMakeFiles/question16.dir/question16.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question16.dir/build.make src/CMakeFiles/question16.dir/question16.cpp.o
 .PHONY : question16.cpp.o
 
 question16.i: question16.cpp.i
@@ -1331,7 +1331,7 @@ question16.i: question16.cpp.i
 
 # target to preprocess a source file
 question16.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question16.dir/build.make src/CMakeFiles/question16.dir/question16.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question16.dir/build.make src/CMakeFiles/question16.dir/question16.cpp.i
 .PHONY : question16.cpp.i
 
 question16.s: question16.cpp.s
@@ -1340,7 +1340,7 @@ question16.s: question16.cpp.s
 
 # target to generate assembly for a file
 question16.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question16.dir/build.make src/CMakeFiles/question16.dir/question16.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question16.dir/build.make src/CMakeFiles/question16.dir/question16.cpp.s
 .PHONY : question16.cpp.s
 
 question167.o: question167.cpp.o
@@ -1349,7 +1349,7 @@ question167.o: question167.cpp.o
 
 # target to build an object file
 question167.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question167.dir/build.make src/CMakeFiles/question167.dir/question167.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question167.dir/build.make src/CMakeFiles/question167.dir/question167.cpp.o
 .PHONY : question167.cpp.o
 
 question167.i: question167.cpp.i
@@ -1358,7 +1358,7 @@ question167.i: question167.cpp.i
 
 # target to preprocess a source file
 question167.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question167.dir/build.make src/CMakeFiles/question167.dir/question167.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question167.dir/build.make src/CMakeFiles/question167.dir/question167.cpp.i
 .PHONY : question167.cpp.i
 
 question167.s: question167.cpp.s
@@ -1367,7 +1367,7 @@ question167.s: question167.cpp.s
 
 # target to generate assembly for a file
 question167.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question167.dir/build.make src/CMakeFiles/question167.dir/question167.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question167.dir/build.make src/CMakeFiles/question167.dir/question167.cpp.s
 .PHONY : question167.cpp.s
 
 question169.o: question169.cpp.o
@@ -1376,7 +1376,7 @@ question169.o: question169.cpp.o
 
 # target to build an object file
 question169.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question169.dir/build.make src/CMakeFiles/question169.dir/question169.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question169.dir/build.make src/CMakeFiles/question169.dir/question169.cpp.o
 .PHONY : question169.cpp.o
 
 question169.i: question169.cpp.i
@@ -1385,7 +1385,7 @@ question169.i: question169.cpp.i
 
 # target to preprocess a source file
 question169.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question169.dir/build.make src/CMakeFiles/question169.dir/question169.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question169.dir/build.make src/CMakeFiles/question169.dir/question169.cpp.i
 .PHONY : question169.cpp.i
 
 question169.s: question169.cpp.s
@@ -1394,7 +1394,7 @@ question169.s: question169.cpp.s
 
 # target to generate assembly for a file
 question169.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question169.dir/build.make src/CMakeFiles/question169.dir/question169.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question169.dir/build.make src/CMakeFiles/question169.dir/question169.cpp.s
 .PHONY : question169.cpp.s
 
 question17.o: question17.cpp.o
@@ -1403,7 +1403,7 @@ question17.o: question17.cpp.o
 
 # target to build an object file
 question17.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/question17.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/question17.cpp.o
 .PHONY : question17.cpp.o
 
 question17.i: question17.cpp.i
@@ -1412,7 +1412,7 @@ question17.i: question17.cpp.i
 
 # target to preprocess a source file
 question17.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/question17.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/question17.cpp.i
 .PHONY : question17.cpp.i
 
 question17.s: question17.cpp.s
@@ -1421,7 +1421,7 @@ question17.s: question17.cpp.s
 
 # target to generate assembly for a file
 question17.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/question17.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question17.dir/build.make src/CMakeFiles/question17.dir/question17.cpp.s
 .PHONY : question17.cpp.s
 
 question19.o: question19.cpp.o
@@ -1430,7 +1430,7 @@ question19.o: question19.cpp.o
 
 # target to build an object file
 question19.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/question19.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/question19.cpp.o
 .PHONY : question19.cpp.o
 
 question19.i: question19.cpp.i
@@ -1439,7 +1439,7 @@ question19.i: question19.cpp.i
 
 # target to preprocess a source file
 question19.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/question19.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/question19.cpp.i
 .PHONY : question19.cpp.i
 
 question19.s: question19.cpp.s
@@ -1448,7 +1448,7 @@ question19.s: question19.cpp.s
 
 # target to generate assembly for a file
 question19.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/question19.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question19.dir/build.make src/CMakeFiles/question19.dir/question19.cpp.s
 .PHONY : question19.cpp.s
 
 question198.o: question198.cpp.o
@@ -1457,7 +1457,7 @@ question198.o: question198.cpp.o
 
 # target to build an object file
 question198.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question198.dir/build.make src/CMakeFiles/question198.dir/question198.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question198.dir/build.make src/CMakeFiles/question198.dir/question198.cpp.o
 .PHONY : question198.cpp.o
 
 question198.i: question198.cpp.i
@@ -1466,7 +1466,7 @@ question198.i: question198.cpp.i
 
 # target to preprocess a source file
 question198.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question198.dir/build.make src/CMakeFiles/question198.dir/question198.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question198.dir/build.make src/CMakeFiles/question198.dir/question198.cpp.i
 .PHONY : question198.cpp.i
 
 question198.s: question198.cpp.s
@@ -1475,7 +1475,7 @@ question198.s: question198.cpp.s
 
 # target to generate assembly for a file
 question198.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question198.dir/build.make src/CMakeFiles/question198.dir/question198.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question198.dir/build.make src/CMakeFiles/question198.dir/question198.cpp.s
 .PHONY : question198.cpp.s
 
 question2.o: question2.cpp.o
@@ -1484,7 +1484,7 @@ question2.o: question2.cpp.o
 
 # target to build an object file
 question2.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/question2.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/question2.cpp.o
 .PHONY : question2.cpp.o
 
 question2.i: question2.cpp.i
@@ -1493,7 +1493,7 @@ question2.i: question2.cpp.i
 
 # target to preprocess a source file
 question2.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/question2.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/question2.cpp.i
 .PHONY : question2.cpp.i
 
 question2.s: question2.cpp.s
@@ -1502,7 +1502,7 @@ question2.s: question2.cpp.s
 
 # target to generate assembly for a file
 question2.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/question2.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question2.dir/build.make src/CMakeFiles/question2.dir/question2.cpp.s
 .PHONY : question2.cpp.s
 
 question20.o: question20.cpp.o
@@ -1511,7 +1511,7 @@ question20.o: question20.cpp.o
 
 # target to build an object file
 question20.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question20.dir/build.make src/CMakeFiles/question20.dir/question20.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question20.dir/build.make src/CMakeFiles/question20.dir/question20.cpp.o
 .PHONY : question20.cpp.o
 
 question20.i: question20.cpp.i
@@ -1520,7 +1520,7 @@ question20.i: question20.cpp.i
 
 # target to preprocess a source file
 question20.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question20.dir/build.make src/CMakeFiles/question20.dir/question20.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question20.dir/build.make src/CMakeFiles/question20.dir/question20.cpp.i
 .PHONY : question20.cpp.i
 
 question20.s: question20.cpp.s
@@ -1529,7 +1529,7 @@ question20.s: question20.cpp.s
 
 # target to generate assembly for a file
 question20.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question20.dir/build.make src/CMakeFiles/question20.dir/question20.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question20.dir/build.make src/CMakeFiles/question20.dir/question20.cpp.s
 .PHONY : question20.cpp.s
 
 question204.o: question204.cpp.o
@@ -1538,7 +1538,7 @@ question204.o: question204.cpp.o
 
 # target to build an object file
 question204.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/question204.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/question204.cpp.o
 .PHONY : question204.cpp.o
 
 question204.i: question204.cpp.i
@@ -1547,7 +1547,7 @@ question204.i: question204.cpp.i
 
 # target to preprocess a source file
 question204.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/question204.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/question204.cpp.i
 .PHONY : question204.cpp.i
 
 question204.s: question204.cpp.s
@@ -1556,7 +1556,7 @@ question204.s: question204.cpp.s
 
 # target to generate assembly for a file
 question204.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/question204.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question204.dir/build.make src/CMakeFiles/question204.dir/question204.cpp.s
 .PHONY : question204.cpp.s
 
 question206.o: question206.cpp.o
@@ -1565,7 +1565,7 @@ question206.o: question206.cpp.o
 
 # target to build an object file
 question206.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question206.dir/build.make src/CMakeFiles/question206.dir/question206.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question206.dir/build.make src/CMakeFiles/question206.dir/question206.cpp.o
 .PHONY : question206.cpp.o
 
 question206.i: question206.cpp.i
@@ -1574,7 +1574,7 @@ question206.i: question206.cpp.i
 
 # target to preprocess a source file
 question206.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question206.dir/build.make src/CMakeFiles/question206.dir/question206.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question206.dir/build.make src/CMakeFiles/question206.dir/question206.cpp.i
 .PHONY : question206.cpp.i
 
 question206.s: question206.cpp.s
@@ -1583,7 +1583,7 @@ question206.s: question206.cpp.s
 
 # target to generate assembly for a file
 question206.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question206.dir/build.make src/CMakeFiles/question206.dir/question206.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question206.dir/build.make src/CMakeFiles/question206.dir/question206.cpp.s
 .PHONY : question206.cpp.s
 
 question21.o: question21.cpp.o
@@ -1592,7 +1592,7 @@ question21.o: question21.cpp.o
 
 # target to build an object file
 question21.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question21.dir/build.make src/CMakeFiles/question21.dir/question21.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question21.dir/build.make src/CMakeFiles/question21.dir/question21.cpp.o
 .PHONY : question21.cpp.o
 
 question21.i: question21.cpp.i
@@ -1601,7 +1601,7 @@ question21.i: question21.cpp.i
 
 # target to preprocess a source file
 question21.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question21.dir/build.make src/CMakeFiles/question21.dir/question21.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question21.dir/build.make src/CMakeFiles/question21.dir/question21.cpp.i
 .PHONY : question21.cpp.i
 
 question21.s: question21.cpp.s
@@ -1610,7 +1610,7 @@ question21.s: question21.cpp.s
 
 # target to generate assembly for a file
 question21.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question21.dir/build.make src/CMakeFiles/question21.dir/question21.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question21.dir/build.make src/CMakeFiles/question21.dir/question21.cpp.s
 .PHONY : question21.cpp.s
 
 question215.o: question215.cpp.o
@@ -1619,7 +1619,7 @@ question215.o: question215.cpp.o
 
 # target to build an object file
 question215.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question215.dir/build.make src/CMakeFiles/question215.dir/question215.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question215.dir/build.make src/CMakeFiles/question215.dir/question215.cpp.o
 .PHONY : question215.cpp.o
 
 question215.i: question215.cpp.i
@@ -1628,7 +1628,7 @@ question215.i: question215.cpp.i
 
 # target to preprocess a source file
 question215.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question215.dir/build.make src/CMakeFiles/question215.dir/question215.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question215.dir/build.make src/CMakeFiles/question215.dir/question215.cpp.i
 .PHONY : question215.cpp.i
 
 question215.s: question215.cpp.s
@@ -1637,7 +1637,7 @@ question215.s: question215.cpp.s
 
 # target to generate assembly for a file
 question215.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question215.dir/build.make src/CMakeFiles/question215.dir/question215.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question215.dir/build.make src/CMakeFiles/question215.dir/question215.cpp.s
 .PHONY : question215.cpp.s
 
 question22.o: question22.cpp.o
@@ -1646,7 +1646,7 @@ question22.o: question22.cpp.o
 
 # target to build an object file
 question22.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question22.dir/build.make src/CMakeFiles/question22.dir/question22.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question22.dir/build.make src/CMakeFiles/question22.dir/question22.cpp.o
 .PHONY : question22.cpp.o
 
 question22.i: question22.cpp.i
@@ -1655,7 +1655,7 @@ question22.i: question22.cpp.i
 
 # target to preprocess a source file
 question22.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question22.dir/build.make src/CMakeFiles/question22.dir/question22.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question22.dir/build.make src/CMakeFiles/question22.dir/question22.cpp.i
 .PHONY : question22.cpp.i
 
 question22.s: question22.cpp.s
@@ -1664,7 +1664,7 @@ question22.s: question22.cpp.s
 
 # target to generate assembly for a file
 question22.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question22.dir/build.make src/CMakeFiles/question22.dir/question22.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question22.dir/build.make src/CMakeFiles/question22.dir/question22.cpp.s
 .PHONY : question22.cpp.s
 
 question234.o: question234.cpp.o
@@ -1673,7 +1673,7 @@ question234.o: question234.cpp.o
 
 # target to build an object file
 question234.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question234.dir/build.make src/CMakeFiles/question234.dir/question234.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question234.dir/build.make src/CMakeFiles/question234.dir/question234.cpp.o
 .PHONY : question234.cpp.o
 
 question234.i: question234.cpp.i
@@ -1682,7 +1682,7 @@ question234.i: question234.cpp.i
 
 # target to preprocess a source file
 question234.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question234.dir/build.make src/CMakeFiles/question234.dir/question234.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question234.dir/build.make src/CMakeFiles/question234.dir/question234.cpp.i
 .PHONY : question234.cpp.i
 
 question234.s: question234.cpp.s
@@ -1691,7 +1691,7 @@ question234.s: question234.cpp.s
 
 # target to generate assembly for a file
 question234.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question234.dir/build.make src/CMakeFiles/question234.dir/question234.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question234.dir/build.make src/CMakeFiles/question234.dir/question234.cpp.s
 .PHONY : question234.cpp.s
 
 question238.o: question238.cpp.o
@@ -1700,7 +1700,7 @@ question238.o: question238.cpp.o
 
 # target to build an object file
 question238.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question238.dir/build.make src/CMakeFiles/question238.dir/question238.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question238.dir/build.make src/CMakeFiles/question238.dir/question238.cpp.o
 .PHONY : question238.cpp.o
 
 question238.i: question238.cpp.i
@@ -1709,7 +1709,7 @@ question238.i: question238.cpp.i
 
 # target to preprocess a source file
 question238.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question238.dir/build.make src/CMakeFiles/question238.dir/question238.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question238.dir/build.make src/CMakeFiles/question238.dir/question238.cpp.i
 .PHONY : question238.cpp.i
 
 question238.s: question238.cpp.s
@@ -1718,7 +1718,7 @@ question238.s: question238.cpp.s
 
 # target to generate assembly for a file
 question238.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question238.dir/build.make src/CMakeFiles/question238.dir/question238.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question238.dir/build.make src/CMakeFiles/question238.dir/question238.cpp.s
 .PHONY : question238.cpp.s
 
 question279.o: question279.cpp.o
@@ -1727,7 +1727,7 @@ question279.o: question279.cpp.o
 
 # target to build an object file
 question279.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question279.dir/build.make src/CMakeFiles/question279.dir/question279.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question279.dir/build.make src/CMakeFiles/question279.dir/question279.cpp.o
 .PHONY : question279.cpp.o
 
 question279.i: question279.cpp.i
@@ -1736,7 +1736,7 @@ question279.i: question279.cpp.i
 
 # target to preprocess a source file
 question279.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question279.dir/build.make src/CMakeFiles/question279.dir/question279.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question279.dir/build.make src/CMakeFiles/question279.dir/question279.cpp.i
 .PHONY : question279.cpp.i
 
 question279.s: question279.cpp.s
@@ -1745,7 +1745,7 @@ question279.s: question279.cpp.s
 
 # target to generate assembly for a file
 question279.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question279.dir/build.make src/CMakeFiles/question279.dir/question279.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question279.dir/build.make src/CMakeFiles/question279.dir/question279.cpp.s
 .PHONY : question279.cpp.s
 
 question283.o: question283.cpp.o
@@ -1754,7 +1754,7 @@ question283.o: question283.cpp.o
 
 # target to build an object file
 question283.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question283.dir/build.make src/CMakeFiles/question283.dir/question283.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question283.dir/build.make src/CMakeFiles/question283.dir/question283.cpp.o
 .PHONY : question283.cpp.o
 
 question283.i: question283.cpp.i
@@ -1763,7 +1763,7 @@ question283.i: question283.cpp.i
 
 # target to preprocess a source file
 question283.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question283.dir/build.make src/CMakeFiles/question283.dir/question283.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question283.dir/build.make src/CMakeFiles/question283.dir/question283.cpp.i
 .PHONY : question283.cpp.i
 
 question283.s: question283.cpp.s
@@ -1772,7 +1772,7 @@ question283.s: question283.cpp.s
 
 # target to generate assembly for a file
 question283.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question283.dir/build.make src/CMakeFiles/question283.dir/question283.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question283.dir/build.make src/CMakeFiles/question283.dir/question283.cpp.s
 .PHONY : question283.cpp.s
 
 question287.o: question287.cpp.o
@@ -1781,7 +1781,7 @@ question287.o: question287.cpp.o
 
 # target to build an object file
 question287.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question287.dir/build.make src/CMakeFiles/question287.dir/question287.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question287.dir/build.make src/CMakeFiles/question287.dir/question287.cpp.o
 .PHONY : question287.cpp.o
 
 question287.i: question287.cpp.i
@@ -1790,7 +1790,7 @@ question287.i: question287.cpp.i
 
 # target to preprocess a source file
 question287.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question287.dir/build.make src/CMakeFiles/question287.dir/question287.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question287.dir/build.make src/CMakeFiles/question287.dir/question287.cpp.i
 .PHONY : question287.cpp.i
 
 question287.s: question287.cpp.s
@@ -1799,7 +1799,7 @@ question287.s: question287.cpp.s
 
 # target to generate assembly for a file
 question287.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question287.dir/build.make src/CMakeFiles/question287.dir/question287.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question287.dir/build.make src/CMakeFiles/question287.dir/question287.cpp.s
 .PHONY : question287.cpp.s
 
 question31.o: question31.cpp.o
@@ -1808,7 +1808,7 @@ question31.o: question31.cpp.o
 
 # target to build an object file
 question31.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/question31.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/question31.cpp.o
 .PHONY : question31.cpp.o
 
 question31.i: question31.cpp.i
@@ -1817,7 +1817,7 @@ question31.i: question31.cpp.i
 
 # target to preprocess a source file
 question31.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/question31.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/question31.cpp.i
 .PHONY : question31.cpp.i
 
 question31.s: question31.cpp.s
@@ -1826,7 +1826,7 @@ question31.s: question31.cpp.s
 
 # target to generate assembly for a file
 question31.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/question31.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question31.dir/build.make src/CMakeFiles/question31.dir/question31.cpp.s
 .PHONY : question31.cpp.s
 
 question322.o: question322.cpp.o
@@ -1835,7 +1835,7 @@ question322.o: question322.cpp.o
 
 # target to build an object file
 question322.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question322.dir/build.make src/CMakeFiles/question322.dir/question322.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question322.dir/build.make src/CMakeFiles/question322.dir/question322.cpp.o
 .PHONY : question322.cpp.o
 
 question322.i: question322.cpp.i
@@ -1844,7 +1844,7 @@ question322.i: question322.cpp.i
 
 # target to preprocess a source file
 question322.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question322.dir/build.make src/CMakeFiles/question322.dir/question322.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question322.dir/build.make src/CMakeFiles/question322.dir/question322.cpp.i
 .PHONY : question322.cpp.i
 
 question322.s: question322.cpp.s
@@ -1853,7 +1853,7 @@ question322.s: question322.cpp.s
 
 # target to generate assembly for a file
 question322.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question322.dir/build.make src/CMakeFiles/question322.dir/question322.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question322.dir/build.make src/CMakeFiles/question322.dir/question322.cpp.s
 .PHONY : question322.cpp.s
 
 question33.o: question33.cpp.o
@@ -1862,7 +1862,7 @@ question33.o: question33.cpp.o
 
 # target to build an object file
 question33.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/question33.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/question33.cpp.o
 .PHONY : question33.cpp.o
 
 question33.i: question33.cpp.i
@@ -1871,7 +1871,7 @@ question33.i: question33.cpp.i
 
 # target to preprocess a source file
 question33.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/question33.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/question33.cpp.i
 .PHONY : question33.cpp.i
 
 question33.s: question33.cpp.s
@@ -1880,7 +1880,7 @@ question33.s: question33.cpp.s
 
 # target to generate assembly for a file
 question33.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/question33.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question33.dir/build.make src/CMakeFiles/question33.dir/question33.cpp.s
 .PHONY : question33.cpp.s
 
 question34.o: question34.cpp.o
@@ -1889,7 +1889,7 @@ question34.o: question34.cpp.o
 
 # target to build an object file
 question34.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/question34.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/question34.cpp.o
 .PHONY : question34.cpp.o
 
 question34.i: question34.cpp.i
@@ -1898,7 +1898,7 @@ question34.i: question34.cpp.i
 
 # target to preprocess a source file
 question34.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/question34.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/question34.cpp.i
 .PHONY : question34.cpp.i
 
 question34.s: question34.cpp.s
@@ -1907,7 +1907,7 @@ question34.s: question34.cpp.s
 
 # target to generate assembly for a file
 question34.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/question34.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question34.dir/build.make src/CMakeFiles/question34.dir/question34.cpp.s
 .PHONY : question34.cpp.s
 
 question347.o: question347.cpp.o
@@ -1916,7 +1916,7 @@ question347.o: question347.cpp.o
 
 # target to build an object file
 question347.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question347.dir/build.make src/CMakeFiles/question347.dir/question347.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question347.dir/build.make src/CMakeFiles/question347.dir/question347.cpp.o
 .PHONY : question347.cpp.o
 
 question347.i: question347.cpp.i
@@ -1925,7 +1925,7 @@ question347.i: question347.cpp.i
 
 # target to preprocess a source file
 question347.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question347.dir/build.make src/CMakeFiles/question347.dir/question347.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question347.dir/build.make src/CMakeFiles/question347.dir/question347.cpp.i
 .PHONY : question347.cpp.i
 
 question347.s: question347.cpp.s
@@ -1934,7 +1934,7 @@ question347.s: question347.cpp.s
 
 # target to generate assembly for a file
 question347.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question347.dir/build.make src/CMakeFiles/question347.dir/question347.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question347.dir/build.make src/CMakeFiles/question347.dir/question347.cpp.s
 .PHONY : question347.cpp.s
 
 question39.o: question39.cpp.o
@@ -1943,7 +1943,7 @@ question39.o: question39.cpp.o
 
 # target to build an object file
 question39.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/question39.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/question39.cpp.o
 .PHONY : question39.cpp.o
 
 question39.i: question39.cpp.i
@@ -1952,7 +1952,7 @@ question39.i: question39.cpp.i
 
 # target to preprocess a source file
 question39.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/question39.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/question39.cpp.i
 .PHONY : question39.cpp.i
 
 question39.s: question39.cpp.s
@@ -1961,7 +1961,7 @@ question39.s: question39.cpp.s
 
 # target to generate assembly for a file
 question39.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/question39.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question39.dir/build.make src/CMakeFiles/question39.dir/question39.cpp.s
 .PHONY : question39.cpp.s
 
 question394.o: question394.cpp.o
@@ -1970,7 +1970,7 @@ question394.o: question394.cpp.o
 
 # target to build an object file
 question394.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question394.dir/build.make src/CMakeFiles/question394.dir/question394.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question394.dir/build.make src/CMakeFiles/question394.dir/question394.cpp.o
 .PHONY : question394.cpp.o
 
 question394.i: question394.cpp.i
@@ -1979,7 +1979,7 @@ question394.i: question394.cpp.i
 
 # target to preprocess a source file
 question394.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question394.dir/build.make src/CMakeFiles/question394.dir/question394.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question394.dir/build.make src/CMakeFiles/question394.dir/question394.cpp.i
 .PHONY : question394.cpp.i
 
 question394.s: question394.cpp.s
@@ -1988,7 +1988,7 @@ question394.s: question394.cpp.s
 
 # target to generate assembly for a file
 question394.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question394.dir/build.make src/CMakeFiles/question394.dir/question394.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question394.dir/build.make src/CMakeFiles/question394.dir/question394.cpp.s
 .PHONY : question394.cpp.s
 
 question399.o: question399.cpp.o
@@ -1997,7 +1997,7 @@ question399.o: question399.cpp.o
 
 # target to build an object file
 question399.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question399.dir/build.make src/CMakeFiles/question399.dir/question399.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question399.dir/build.make src/CMakeFiles/question399.dir/question399.cpp.o
 .PHONY : question399.cpp.o
 
 question399.i: question399.cpp.i
@@ -2006,7 +2006,7 @@ question399.i: question399.cpp.i
 
 # target to preprocess a source file
 question399.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question399.dir/build.make src/CMakeFiles/question399.dir/question399.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question399.dir/build.make src/CMakeFiles/question399.dir/question399.cpp.i
 .PHONY : question399.cpp.i
 
 question399.s: question399.cpp.s
@@ -2015,7 +2015,7 @@ question399.s: question399.cpp.s
 
 # target to generate assembly for a file
 question399.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question399.dir/build.make src/CMakeFiles/question399.dir/question399.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question399.dir/build.make src/CMakeFiles/question399.dir/question399.cpp.s
 .PHONY : question399.cpp.s
 
 question40.o: question40.cpp.o
@@ -2024,7 +2024,7 @@ question40.o: question40.cpp.o
 
 # target to build an object file
 question40.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/question40.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/question40.cpp.o
 .PHONY : question40.cpp.o
 
 question40.i: question40.cpp.i
@@ -2033,7 +2033,7 @@ question40.i: question40.cpp.i
 
 # target to preprocess a source file
 question40.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/question40.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/question40.cpp.i
 .PHONY : question40.cpp.i
 
 question40.s: question40.cpp.s
@@ -2042,7 +2042,7 @@ question40.s: question40.cpp.s
 
 # target to generate assembly for a file
 question40.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/question40.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/question40.cpp.s
 .PHONY : question40.cpp.s
 
 question45.o: question45.cpp.o
@@ -2051,7 +2051,7 @@ question45.o: question45.cpp.o
 
 # target to build an object file
 question45.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/question45.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/question45.cpp.o
 .PHONY : question45.cpp.o
 
 question45.i: question45.cpp.i
@@ -2060,7 +2060,7 @@ question45.i: question45.cpp.i
 
 # target to preprocess a source file
 question45.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/question45.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/question45.cpp.i
 .PHONY : question45.cpp.i
 
 question45.s: question45.cpp.s
@@ -2069,7 +2069,7 @@ question45.s: question45.cpp.s
 
 # target to generate assembly for a file
 question45.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/question45.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question45.dir/build.make src/CMakeFiles/question45.dir/question45.cpp.s
 .PHONY : question45.cpp.s
 
 question46.o: question46.cpp.o
@@ -2078,7 +2078,7 @@ question46.o: question46.cpp.o
 
 # target to build an object file
 question46.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question46.dir/build.make src/CMakeFiles/question46.dir/question46.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question46.dir/build.make src/CMakeFiles/question46.dir/question46.cpp.o
 .PHONY : question46.cpp.o
 
 question46.i: question46.cpp.i
@@ -2087,7 +2087,7 @@ question46.i: question46.cpp.i
 
 # target to preprocess a source file
 question46.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question46.dir/build.make src/CMakeFiles/question46.dir/question46.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question46.dir/build.make src/CMakeFiles/question46.dir/question46.cpp.i
 .PHONY : question46.cpp.i
 
 question46.s: question46.cpp.s
@@ -2096,7 +2096,7 @@ question46.s: question46.cpp.s
 
 # target to generate assembly for a file
 question46.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question46.dir/build.make src/CMakeFiles/question46.dir/question46.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question46.dir/build.make src/CMakeFiles/question46.dir/question46.cpp.s
 .PHONY : question46.cpp.s
 
 question461.o: question461.cpp.o
@@ -2105,7 +2105,7 @@ question461.o: question461.cpp.o
 
 # target to build an object file
 question461.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question461.dir/build.make src/CMakeFiles/question461.dir/question461.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question461.dir/build.make src/CMakeFiles/question461.dir/question461.cpp.o
 .PHONY : question461.cpp.o
 
 question461.i: question461.cpp.i
@@ -2114,7 +2114,7 @@ question461.i: question461.cpp.i
 
 # target to preprocess a source file
 question461.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question461.dir/build.make src/CMakeFiles/question461.dir/question461.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question461.dir/build.make src/CMakeFiles/question461.dir/question461.cpp.i
 .PHONY : question461.cpp.i
 
 question461.s: question461.cpp.s
@@ -2123,7 +2123,7 @@ question461.s: question461.cpp.s
 
 # target to generate assembly for a file
 question461.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question461.dir/build.make src/CMakeFiles/question461.dir/question461.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question461.dir/build.make src/CMakeFiles/question461.dir/question461.cpp.s
 .PHONY : question461.cpp.s
 
 question48.o: question48.cpp.o
@@ -2132,7 +2132,7 @@ question48.o: question48.cpp.o
 
 # target to build an object file
 question48.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/question48.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/question48.cpp.o
 .PHONY : question48.cpp.o
 
 question48.i: question48.cpp.i
@@ -2141,7 +2141,7 @@ question48.i: question48.cpp.i
 
 # target to preprocess a source file
 question48.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/question48.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/question48.cpp.i
 .PHONY : question48.cpp.i
 
 question48.s: question48.cpp.s
@@ -2150,7 +2150,7 @@ question48.s: question48.cpp.s
 
 # target to generate assembly for a file
 question48.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/question48.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/question48.cpp.s
 .PHONY : question48.cpp.s
 
 question55.o: question55.cpp.o
@@ -2159,7 +2159,7 @@ question55.o: question55.cpp.o
 
 # target to build an object file
 question55.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question55.dir/build.make src/CMakeFiles/question55.dir/question55.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question55.dir/build.make src/CMakeFiles/question55.dir/question55.cpp.o
 .PHONY : question55.cpp.o
 
 question55.i: question55.cpp.i
@@ -2168,7 +2168,7 @@ question55.i: question55.cpp.i
 
 # target to preprocess a source file
 question55.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question55.dir/build.make src/CMakeFiles/question55.dir/question55.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question55.dir/build.make src/CMakeFiles/question55.dir/question55.cpp.i
 .PHONY : question55.cpp.i
 
 question55.s: question55.cpp.s
@@ -2177,7 +2177,7 @@ question55.s: question55.cpp.s
 
 # target to generate assembly for a file
 question55.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question55.dir/build.make src/CMakeFiles/question55.dir/question55.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question55.dir/build.make src/CMakeFiles/question55.dir/question55.cpp.s
 .PHONY : question55.cpp.s
 
 question56.o: question56.cpp.o
@@ -2186,7 +2186,7 @@ question56.o: question56.cpp.o
 
 # target to build an object file
 question56.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.o
 .PHONY : question56.cpp.o
 
 question56.i: question56.cpp.i
@@ -2195,7 +2195,7 @@ question56.i: question56.cpp.i
 
 # target to preprocess a source file
 question56.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.i
 .PHONY : question56.cpp.i
 
 question56.s: question56.cpp.s
@@ -2204,7 +2204,7 @@ question56.s: question56.cpp.s
 
 # target to generate assembly for a file
 question56.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question56.dir/build.make src/CMakeFiles/question56.dir/question56.cpp.s
 .PHONY : question56.cpp.s
 
 question560.o: question560.cpp.o
@@ -2213,7 +2213,7 @@ question560.o: question560.cpp.o
 
 # target to build an object file
 question560.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/question560.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/question560.cpp.o
 .PHONY : question560.cpp.o
 
 question560.i: question560.cpp.i
@@ -2222,7 +2222,7 @@ question560.i: question560.cpp.i
 
 # target to preprocess a source file
 question560.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/question560.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/question560.cpp.i
 .PHONY : question560.cpp.i
 
 question560.s: question560.cpp.s
@@ -2231,7 +2231,7 @@ question560.s: question560.cpp.s
 
 # target to generate assembly for a file
 question560.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/question560.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question560.dir/build.make src/CMakeFiles/question560.dir/question560.cpp.s
 .PHONY : question560.cpp.s
 
 question581.o: question581.cpp.o
@@ -2240,7 +2240,7 @@ question581.o: question581.cpp.o
 
 # target to build an object file
 question581.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/question581.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/question581.cpp.o
 .PHONY : question581.cpp.o
 
 question581.i: question581.cpp.i
@@ -2249,7 +2249,7 @@ question581.i: question581.cpp.i
 
 # target to preprocess a source file
 question581.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/question581.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/question581.cpp.i
 .PHONY : question581.cpp.i
 
 question581.s: question581.cpp.s
@@ -2258,7 +2258,7 @@ question581.s: question581.cpp.s
 
 # target to generate assembly for a file
 question581.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/question581.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question581.dir/build.make src/CMakeFiles/question581.dir/question581.cpp.s
 .PHONY : question581.cpp.s
 
 question62.o: question62.cpp.o
@@ -2267,7 +2267,7 @@ question62.o: question62.cpp.o
 
 # target to build an object file
 question62.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/question62.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/question62.cpp.o
 .PHONY : question62.cpp.o
 
 question62.i: question62.cpp.i
@@ -2276,7 +2276,7 @@ question62.i: question62.cpp.i
 
 # target to preprocess a source file
 question62.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/question62.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/question62.cpp.i
 .PHONY : question62.cpp.i
 
 question62.s: question62.cpp.s
@@ -2285,7 +2285,7 @@ question62.s: question62.cpp.s
 
 # target to generate assembly for a file
 question62.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/question62.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question62.dir/build.make src/CMakeFiles/question62.dir/question62.cpp.s
 .PHONY : question62.cpp.s
 
 question64.o: question64.cpp.o
@@ -2294,7 +2294,7 @@ question64.o: question64.cpp.o
 
 # target to build an object file
 question64.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/question64.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/question64.cpp.o
 .PHONY : question64.cpp.o
 
 question64.i: question64.cpp.i
@@ -2303,7 +2303,7 @@ question64.i: question64.cpp.i
 
 # target to preprocess a source file
 question64.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/question64.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/question64.cpp.i
 .PHONY : question64.cpp.i
 
 question64.s: question64.cpp.s
@@ -2312,7 +2312,7 @@ question64.s: question64.cpp.s
 
 # target to generate assembly for a file
 question64.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/question64.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question64.dir/build.make src/CMakeFiles/question64.dir/question64.cpp.s
 .PHONY : question64.cpp.s
 
 question66.o: question66.cpp.o
@@ -2321,7 +2321,7 @@ question66.o: question66.cpp.o
 
 # target to build an object file
 question66.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/question66.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/question66.cpp.o
 .PHONY : question66.cpp.o
 
 question66.i: question66.cpp.i
@@ -2330,7 +2330,7 @@ question66.i: question66.cpp.i
 
 # target to preprocess a source file
 question66.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/question66.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/question66.cpp.i
 .PHONY : question66.cpp.i
 
 question66.s: question66.cpp.s
@@ -2339,7 +2339,7 @@ question66.s: question66.cpp.s
 
 # target to generate assembly for a file
 question66.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/question66.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question66.dir/build.make src/CMakeFiles/question66.dir/question66.cpp.s
 .PHONY : question66.cpp.s
 
 question70.o: question70.cpp.o
@@ -2348,7 +2348,7 @@ question70.o: question70.cpp.o
 
 # target to build an object file
 question70.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question70.dir/build.make src/CMakeFiles/question70.dir/question70.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question70.dir/build.make src/CMakeFiles/question70.dir/question70.cpp.o
 .PHONY : question70.cpp.o
 
 question70.i: question70.cpp.i
@@ -2357,7 +2357,7 @@ question70.i: question70.cpp.i
 
 # target to preprocess a source file
 question70.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question70.dir/build.make src/CMakeFiles/question70.dir/question70.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question70.dir/build.make src/CMakeFiles/question70.dir/question70.cpp.i
 .PHONY : question70.cpp.i
 
 question70.s: question70.cpp.s
@@ -2366,7 +2366,7 @@ question70.s: question70.cpp.s
 
 # target to generate assembly for a file
 question70.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question70.dir/build.make src/CMakeFiles/question70.dir/question70.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question70.dir/build.make src/CMakeFiles/question70.dir/question70.cpp.s
 .PHONY : question70.cpp.s
 
 question739.o: question739.cpp.o
@@ -2375,7 +2375,7 @@ question739.o: question739.cpp.o
 
 # target to build an object file
 question739.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question739.dir/build.make src/CMakeFiles/question739.dir/question739.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question739.dir/build.make src/CMakeFiles/question739.dir/question739.cpp.o
 .PHONY : question739.cpp.o
 
 question739.i: question739.cpp.i
@@ -2384,7 +2384,7 @@ question739.i: question739.cpp.i
 
 # target to preprocess a source file
 question739.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question739.dir/build.make src/CMakeFiles/question739.dir/question739.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question739.dir/build.make src/CMakeFiles/question739.dir/question739.cpp.i
 .PHONY : question739.cpp.i
 
 question739.s: question739.cpp.s
@@ -2393,7 +2393,7 @@ question739.s: question739.cpp.s
 
 # target to generate assembly for a file
 question739.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question739.dir/build.make src/CMakeFiles/question739.dir/question739.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question739.dir/build.make src/CMakeFiles/question739.dir/question739.cpp.s
 .PHONY : question739.cpp.s
 
 question74.o: question74.cpp.o
@@ -2402,7 +2402,7 @@ question74.o: question74.cpp.o
 
 # target to build an object file
 question74.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/question74.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/question74.cpp.o
 .PHONY : question74.cpp.o
 
 question74.i: question74.cpp.i
@@ -2411,7 +2411,7 @@ question74.i: question74.cpp.i
 
 # target to preprocess a source file
 question74.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/question74.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/question74.cpp.i
 .PHONY : question74.cpp.i
 
 question74.s: question74.cpp.s
@@ -2420,7 +2420,7 @@ question74.s: question74.cpp.s
 
 # target to generate assembly for a file
 question74.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/question74.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question74.dir/build.make src/CMakeFiles/question74.dir/question74.cpp.s
 .PHONY : question74.cpp.s
 
 question75.o: question75.cpp.o
@@ -2429,7 +2429,7 @@ question75.o: question75.cpp.o
 
 # target to build an object file
 question75.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/question75.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/question75.cpp.o
 .PHONY : question75.cpp.o
 
 question75.i: question75.cpp.i
@@ -2438,7 +2438,7 @@ question75.i: question75.cpp.i
 
 # target to preprocess a source file
 question75.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/question75.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/question75.cpp.i
 .PHONY : question75.cpp.i
 
 question75.s: question75.cpp.s
@@ -2447,7 +2447,7 @@ question75.s: question75.cpp.s
 
 # target to generate assembly for a file
 question75.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/question75.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question75.dir/build.make src/CMakeFiles/question75.dir/question75.cpp.s
 .PHONY : question75.cpp.s
 
 question78.o: question78.cpp.o
@@ -2456,7 +2456,7 @@ question78.o: question78.cpp.o
 
 # target to build an object file
 question78.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.o
 .PHONY : question78.cpp.o
 
 question78.i: question78.cpp.i
@@ -2465,7 +2465,7 @@ question78.i: question78.cpp.i
 
 # target to preprocess a source file
 question78.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.i
 .PHONY : question78.cpp.i
 
 question78.s: question78.cpp.s
@@ -2474,7 +2474,7 @@ question78.s: question78.cpp.s
 
 # target to generate assembly for a file
 question78.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.s
 .PHONY : question78.cpp.s
 
 question88.o: question88.cpp.o
@@ -2483,7 +2483,7 @@ question88.o: question88.cpp.o
 
 # target to build an object file
 question88.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/question88.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/question88.cpp.o
 .PHONY : question88.cpp.o
 
 question88.i: question88.cpp.i
@@ -2492,7 +2492,7 @@ question88.i: question88.cpp.i
 
 # target to preprocess a source file
 question88.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/question88.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/question88.cpp.i
 .PHONY : question88.cpp.i
 
 question88.s: question88.cpp.s
@@ -2501,7 +2501,7 @@ question88.s: question88.cpp.s
 
 # target to generate assembly for a file
 question88.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/question88.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/question88.cpp.s
 .PHONY : question88.cpp.s
 
 # Help Target
@@ -2751,6 +2751,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
