@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/question96.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question96.dir/rule
+.PHONY : src/CMakeFiles/question96.dir/rule
+
+# Convenience name for target.
+question96: src/CMakeFiles/question96.dir/rule
+
+.PHONY : question96
+
+# fast build rule for target.
+question96/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question96.dir/build.make src/CMakeFiles/question96.dir/build
+.PHONY : question96/fast
+
+# Convenience name for target.
 src/CMakeFiles/question109.dir/rule:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question109.dir/rule
 .PHONY : src/CMakeFiles/question109.dir/rule
@@ -2504,6 +2519,33 @@ question88.cpp.s:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/question88.cpp.s
 .PHONY : question88.cpp.s
 
+question96.o: question96.cpp.o
+
+.PHONY : question96.o
+
+# target to build an object file
+question96.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question96.dir/build.make src/CMakeFiles/question96.dir/question96.cpp.o
+.PHONY : question96.cpp.o
+
+question96.i: question96.cpp.i
+
+.PHONY : question96.i
+
+# target to preprocess a source file
+question96.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question96.dir/build.make src/CMakeFiles/question96.dir/question96.cpp.i
+.PHONY : question96.cpp.i
+
+question96.s: question96.cpp.s
+
+.PHONY : question96.s
+
+# target to generate assembly for a file
+question96.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question96.dir/build.make src/CMakeFiles/question96.dir/question96.cpp.s
+.PHONY : question96.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2512,6 +2554,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... question96"
 	@echo "... question109"
 	@echo "... question103"
 	@echo "... question581"
@@ -2740,6 +2783,9 @@ help:
 	@echo "... question88.o"
 	@echo "... question88.i"
 	@echo "... question88.s"
+	@echo "... question96.o"
+	@echo "... question96.i"
+	@echo "... question96.s"
 .PHONY : help
 
 

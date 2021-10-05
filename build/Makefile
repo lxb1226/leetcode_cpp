@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named question96
+
+# Build rule for target.
+question96: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 question96
+.PHONY : question96
+
+# fast build rule for target.
+question96/fast:
+	$(MAKE) -f src/CMakeFiles/question96.dir/build.make src/CMakeFiles/question96.dir/build
+.PHONY : question96/fast
+
+#=============================================================================
 # Target rules for targets named question109
 
 # Build rule for target.
@@ -859,6 +872,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... question96"
 	@echo "... question109"
 	@echo "... question103"
 	@echo "... question581"
