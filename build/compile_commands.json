@@ -26,6 +26,11 @@
 },
 {
   "directory": "/home/heyjude/workspace/projects/leetcode_cpp/build/src",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7      -std=gnu++1z -o CMakeFiles/question99.dir/question99.cpp.o -c /home/heyjude/workspace/projects/leetcode_cpp/src/question99.cpp",
+  "file": "/home/heyjude/workspace/projects/leetcode_cpp/src/question99.cpp"
+},
+{
+  "directory": "/home/heyjude/workspace/projects/leetcode_cpp/build/src",
   "command": "/usr/bin/x86_64-linux-gnu-g++-7      -std=gnu++1z -o CMakeFiles/question287.dir/question287.cpp.o -c /home/heyjude/workspace/projects/leetcode_cpp/src/question287.cpp",
   "file": "/home/heyjude/workspace/projects/leetcode_cpp/src/question287.cpp"
 },

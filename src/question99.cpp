@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <stack>
 
 using namespace std;
 
@@ -16,29 +17,57 @@ struct TreeNode
 class Solution
 {
 public:
-    // TODO:
+    // TODO:中序遍历的迭代写法， 二叉树的遍历的迭代写法需要掌握
     void recoverTree(TreeNode *root)
     {
-    }
+        stack<TreeNode *> stk;
+        TreeNode *x = nullptr;
+        TreeNode *y = nullptr;
+        TreeNode *pred = nullptr;
 
-    // 中序遍历
-    void in_order(TreeNode *root, int &pre_val, int &val)
-    {
-        if (root == nullptr)
+        while (!stk.empty() || root != nullptr)
         {
-            return;
+            while (root != nullptr)
+            {
+                stk.push(root);
+                root = root->left;
+            }
+
+            root = stk.top();
+            stk.pop();
+            if (pred != nullptr && root->val < pred->val)
+            {
+                y = root;
+                if (x == nullptr)
+                {
+                    x = pred;
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            pred = root;
+            root = root->right;
         }
-        if (root->val < pre_val)
-        {
-            val = root->val;
-            return;
-        }
-        pre_val = root->val;
-        in_order(root->left, pre_val, val);
-        in_order(root->right, pre_val, val);
+
+        swap(x->val, y->val);
     }
 };
 
+TreeNode *buildTree()
+{
+    TreeNode *root = new TreeNode(1);
+    root->left = new TreeNode(3);
+    root->left->right = new TreeNode(2);
+
+    return root;
+}
+
 int main()
 {
+    TreeNode *root = buildTree();
+    Solution su;
+    su.recoverTree(root);
 }

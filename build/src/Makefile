@@ -186,6 +186,21 @@ question322/fast:
 .PHONY : question322/fast
 
 # Convenience name for target.
+src/CMakeFiles/question99.dir/rule:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question99.dir/rule
+.PHONY : src/CMakeFiles/question99.dir/rule
+
+# Convenience name for target.
+question99: src/CMakeFiles/question99.dir/rule
+
+.PHONY : question99
+
+# fast build rule for target.
+question99/fast:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question99.dir/build.make src/CMakeFiles/question99.dir/build
+.PHONY : question99/fast
+
+# Convenience name for target.
 src/CMakeFiles/question287.dir/rule:
 	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question287.dir/rule
 .PHONY : src/CMakeFiles/question287.dir/rule
@@ -2504,6 +2519,33 @@ question88.cpp.s:
 	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question88.dir/build.make src/CMakeFiles/question88.dir/question88.cpp.s
 .PHONY : question88.cpp.s
 
+question99.o: question99.cpp.o
+
+.PHONY : question99.o
+
+# target to build an object file
+question99.cpp.o:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question99.dir/build.make src/CMakeFiles/question99.dir/question99.cpp.o
+.PHONY : question99.cpp.o
+
+question99.i: question99.cpp.i
+
+.PHONY : question99.i
+
+# target to preprocess a source file
+question99.cpp.i:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question99.dir/build.make src/CMakeFiles/question99.dir/question99.cpp.i
+.PHONY : question99.cpp.i
+
+question99.s: question99.cpp.s
+
+.PHONY : question99.s
+
+# target to generate assembly for a file
+question99.cpp.s:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question99.dir/build.make src/CMakeFiles/question99.dir/question99.cpp.s
+.PHONY : question99.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2517,6 +2559,7 @@ help:
 	@echo "... question581"
 	@echo "... question560"
 	@echo "... question322"
+	@echo "... question99"
 	@echo "... question287"
 	@echo "... question283"
 	@echo "... question215"
@@ -2740,6 +2783,9 @@ help:
 	@echo "... question88.o"
 	@echo "... question88.i"
 	@echo "... question88.s"
+	@echo "... question99.o"
+	@echo "... question99.i"
+	@echo "... question99.s"
 .PHONY : help
 
 
