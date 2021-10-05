@@ -25,28 +25,31 @@ struct ListNode
 class Solution
 {
 public:
-    // TODO:有bug
+    ListNode* getMedian(ListNode* left, ListNode* right){
+        ListNode* fast = left;
+        ListNode* slow = left;
+        while(fast != right && fast->next != right){
+            fast = fast->next->next;
+            slow = slow->next;
+        }
+        return slow;
+    }
+
+    // TODO:思路一致 具体细节上没有考虑清楚
     // 首先找到链表的中间结点作为头结点，中间结点的左边链表作为中间结点的左子树，右边链表作为中间结点的右子树
     TreeNode *sortedListToBST(ListNode *head)
     {
+        return buildTree(head, nullptr);
     }
 
-    TreeNode *helper(ListNode *head, ListNode *tail)
-    {
-        if (!head)
+    TreeNode* buildTree(ListNode* left, ListNode* right){
+        if(left == right)
             return nullptr;
-        TreeNode *root = new TreeNode();
-        ListNode *slow = head, *fast = head;
-        // 找到链表的中间结点
-        while (fast->next && fast->next->next)
-        {
-            slow = slow->next;
-            fast = fast->next->next;
-        }
-
-        root->val = slow->val;
-        root->left = helper(head, slow);
-        root->right = helper(slow->next, tail);
+        
+        ListNode* mid = getMedian(left, right);
+        TreeNode* root = new TreeNode(mid->val);
+        root->left = buildTree(left, mid);
+        root->right = buildTree(mid->next, right);
         return root;
     }
 };
