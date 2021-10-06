@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/question322.dir/question322.cpp.o  -o question322 
