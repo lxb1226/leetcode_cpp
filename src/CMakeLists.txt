@@ -55,8 +55,6 @@ add_executable(question234 question234.cpp)
 add_executable(question103 question103.cpp)
 add_executable(question107 question107.cpp)
 add_executable(question109 question109.cpp)
-<<<<<<< HEAD
-add_executable(question99 question99.cpp)
-=======
 add_executable(question96 question96.cpp)
->>>>>>> cd126e170f01277b92a06d51419c1d3cfd25ea38
+add_executable(question129 question129.cpp)
+add_executable(question230 question230.cpp)

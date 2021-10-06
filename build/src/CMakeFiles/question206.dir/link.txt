@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/question206.dir/question206.cpp.o  -o question206 
