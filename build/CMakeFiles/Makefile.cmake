@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "../src/CMakeLists.txt"
+  "../templates/CMakeLists.txt"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"
@@ -40,6 +41,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "templates/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -104,4 +106,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/question74.dir/DependInfo.cmake"
   "src/CMakeFiles/question20.dir/DependInfo.cmake"
   "src/CMakeFiles/question70.dir/DependInfo.cmake"
+  "templates/CMakeFiles/tree.dir/DependInfo.cmake"
   )
