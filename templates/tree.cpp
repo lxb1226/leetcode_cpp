@@ -81,6 +81,7 @@ void post_traversal(TreeNode *root)
             root = stack_node.top();
             if (root->right == nullptr || root->right == lastvisit)
             {
+                // 如果当前节点的右节点为空，或者
                 cout << root->val << " ";
                 stack_node.pop();
                 lastvisit = root;
