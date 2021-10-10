@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/question54.dir/rule:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question54.dir/rule
+.PHONY : src/CMakeFiles/question54.dir/rule
+
+# Convenience name for target.
+question54: src/CMakeFiles/question54.dir/rule
+
+.PHONY : question54
+
+# fast build rule for target.
+question54/fast:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question54.dir/build.make src/CMakeFiles/question54.dir/build
+.PHONY : question54/fast
+
+# Convenience name for target.
 src/CMakeFiles/question230.dir/rule:
 	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question230.dir/rule
 .PHONY : src/CMakeFiles/question230.dir/rule
@@ -2252,6 +2267,33 @@ question48.cpp.s:
 	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question48.dir/build.make src/CMakeFiles/question48.dir/question48.cpp.s
 .PHONY : question48.cpp.s
 
+question54.o: question54.cpp.o
+
+.PHONY : question54.o
+
+# target to build an object file
+question54.cpp.o:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question54.dir/build.make src/CMakeFiles/question54.dir/question54.cpp.o
+.PHONY : question54.cpp.o
+
+question54.i: question54.cpp.i
+
+.PHONY : question54.i
+
+# target to preprocess a source file
+question54.cpp.i:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question54.dir/build.make src/CMakeFiles/question54.dir/question54.cpp.i
+.PHONY : question54.cpp.i
+
+question54.s: question54.cpp.s
+
+.PHONY : question54.s
+
+# target to generate assembly for a file
+question54.cpp.s:
+	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question54.dir/build.make src/CMakeFiles/question54.dir/question54.cpp.s
+.PHONY : question54.cpp.s
+
 question55.o: question55.cpp.o
 
 .PHONY : question55.o
@@ -2638,6 +2680,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... question54"
 	@echo "... question230"
 	@echo "... question96"
 	@echo "... question109"
@@ -2836,6 +2879,9 @@ help:
 	@echo "... question48.o"
 	@echo "... question48.i"
 	@echo "... question48.s"
+	@echo "... question54.o"
+	@echo "... question54.i"
+	@echo "... question54.s"
 	@echo "... question55.o"
 	@echo "... question55.i"
 	@echo "... question55.s"

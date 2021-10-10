@@ -3,33 +3,53 @@
 
 using namespace std;
 
-class Solution {
+class Solution
+{
+private:
+    static constexpr int directions[4][2] = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+
 public:
-    vector<int> spiralOrder(vector<vector<int>>& matrix) {
-        int m = matrix.size(), n = matrix[0].size();
-        int i = 0, j = 0;
-        vector<int> ans;
+    vector<int> spiralOrder(vector<vector<int>> &matrix)
+    {
+        if (matrix.size() == 0 || matrix[0].size() == 0)
+        {
+            return {};
+        }
 
-        // while(i < m && j < n){
-        //     // 判定往那边走
-        //     if(j == n - 1 && i != m - 1){
-        //         // 往下走
+        int rows = matrix.size(), columns = matrix[0].size();
+        vector<vector<bool>> visited(rows, vector<bool>(columns));
+        int total = rows * columns;
+        vector<int> order(total);
 
-        //     }else if(j == n - 1 && i == m - 1){
-        //         // 往左走
+        int row = 0, column = 0;
+        int directionIndex = 0;
+        for (int i = 0; i < total; i++)
+        {
+            order[i] = matrix[row][column];
+            visited[row][column] = true;
+            int nextRow = row + directions[directionIndex][0], nextColumn = column + directions[directionIndex][1];
 
-        //     }else if(j == 0 && ){
+            if (nextRow < 0 || nextRow >= rows || nextColumn < 0 || nextColumn >= columns || visited[nextRow][nextColumn])
+            {
+                directionIndex = (directionIndex + 1) % 4;
+            }
 
-        //     }
+            row += directions[directionIndex][0];
+            column += directions[directionIndex][1];
+        }
 
-        //     ans.push_back(matrix[i][j]);
-        //     if(j == n - 1){
-
-        //     }
-        // }
+        return order;
     }
 };
 
-int main(){
-
+int main()
+{
+    vector<vector<int>> matrix{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
+    // cout << matrix.size() << endl;
+    Solution su;
+    auto ans = su.spiralOrder(matrix);
+    for (auto num : ans)
+    {
+        cout << " " << num;
+    }
 }

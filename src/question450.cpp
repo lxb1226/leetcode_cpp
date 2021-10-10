@@ -18,34 +18,54 @@ struct TreeNode
 class Solution
 {
 public:
-    // TODO: 
-    TreeNode *deleteNode(TreeNode *root, int key)
+    int successor(TreeNode *root)
     {
-        // 1.首先查找到key的位置，找到后查找下一个位置，如何查找？
-        TreeNode* delete_node = findNode(root, key);
-        TreeNode* left_node;
-        if(delete_node->right != nullptr){
-            // 查找右子树中最左边的那个节点
-            left_node = delete_node->right;
-            while(left_node->left){
-                left_node = left_node->left;
-            }
-            
-        }else{
-            // 直接删除
-
-        }
-
+        root = root->right;
+        while (root->left != nullptr)
+            root = root->left;
+        return root->val;
     }
 
-    TreeNode *findNode(TreeNode* root, int key){
-        if(root->val == key){
-            return root;
-        }else if(root->val > key){
-            return findNode(root->left, key);
-        }else{
-            return findNode(root->right, key);
+    int predecessor(TreeNode *root)
+    {
+        root = root->left;
+        while (root->right != nullptr)
+            root = root->right;
+        return root->val;
+    }
+
+    // TODO:
+    TreeNode *deleteNode(TreeNode *root, int key)
+    {
+        if (root == nullptr)
+            return nullptr;
+        // 从右子树删除
+        if (key > root->val)
+            root->right = deleteNode(root->right, key);
+        // 从左子树删除
+        else if (key < root->val)
+            root->left = deleteNode(root->left, key);
+        else
+        {
+            // 从目前结点删除
+            // 该结点是叶子结点
+            if (root->left == nullptr && root->right == nullptr)
+                root == nullptr;
+            else if (root->right != nullptr)
+            {
+                // 该结点不是叶子结点，且有右子树
+                root->val = successor(root);
+                root->right = deleteNode(root->right, root->val);
+            }
+            else
+            {
+                // 该结点不是叶子结点，有左子树
+                root->val = predecessor(root);
+                root->left = deleteNode(root->left, root->val);
+            }
         }
+
+        return root;
     }
 };
 
