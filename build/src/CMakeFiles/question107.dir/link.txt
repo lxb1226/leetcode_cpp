@@ -1,1 +1,1 @@
-/usr/bin/x86_64-linux-gnu-g++-7  -g   CMakeFiles/question107.dir/question107.cpp.o  -o question107 
+/usr/bin/c++     CMakeFiles/question107.dir/question107.cpp.o  -o question107 

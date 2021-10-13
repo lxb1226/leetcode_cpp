@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <tuple>
 
 using namespace std;
 
@@ -16,6 +17,35 @@ struct TreeNode
 
 class Solution {
 public:
+    typedef tuple<TreeNode*,long,long> Node;
+    int widthOfBinaryTree(TreeNode* root) {
+        queue<Node> q;
+        int cur_depth = 0, left = 0, ans = 0;
+        q.push(make_tuple(root, 0, 0));
+        while(!q.empty()){
+            Node node = q.front();
+            q.pop();
+            root = std::get<0>(node);
+            int depth = std::get<1>(node);
+            int pos = std::get<2>(node);
+            if(root){
+                q.push(make_tuple(root->left, depth + 1, pos * 2));
+                q.push(make_tuple(root->right, depth + 1, pos * 2 + 1));
+                
+                if(cur_depth != depth){
+                    cur_depth = depth;
+                    left = pos;
+                }
+
+                ans = max(pos - left + 1, ans);
+            }
+
+        }
+
+        return ans;
+    }
+
+    // 超时
     int widthOfBinaryTree(TreeNode* root) {
         if(root == nullptr) return 0;
         queue<TreeNode*> q;

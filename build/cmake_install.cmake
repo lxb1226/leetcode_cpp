@@ -1,4 +1,4 @@
-# Install script for directory: /home/heyjude/workspace/projects/leetcode_cpp
+# Install script for directory: /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/heyjude/workspace/projects/leetcode_cpp/build/src/cmake_install.cmake")
-  include("/home/heyjude/workspace/projects/leetcode_cpp/build/templates/cmake_install.cmake")
+  include("/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/src/cmake_install.cmake")
+  include("/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/templates/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/heyjude/workspace/projects/leetcode_cpp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
