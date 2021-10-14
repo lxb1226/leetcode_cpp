@@ -6,7 +6,7 @@ using namespace std;
 class Solution {
 public:
     // TODO:有bug
-    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
+    int uniquePathsWithObstacles1(vector<vector<int>>& obstacleGrid) {
         int n = obstacleGrid.size(), m = obstacleGrid.at(0).size();
         vector<int> f(m);
         f[0] = (obstacleGrid[0][0] == 0);
