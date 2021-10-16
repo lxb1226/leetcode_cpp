@@ -951,6 +951,21 @@ question21/fast:
 .PHONY : question21/fast
 
 # Convenience name for target.
+src/CMakeFiles/question80.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question80.dir/rule
+.PHONY : src/CMakeFiles/question80.dir/rule
+
+# Convenience name for target.
+question80: src/CMakeFiles/question80.dir/rule
+
+.PHONY : question80
+
+# fast build rule for target.
+question80/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question80.dir/build.make src/CMakeFiles/question80.dir/build
+.PHONY : question80/fast
+
+# Convenience name for target.
 src/CMakeFiles/question17.dir/rule:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question17.dir/rule
 .PHONY : src/CMakeFiles/question17.dir/rule
@@ -2744,6 +2759,33 @@ question78.cpp.s:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.s
 .PHONY : question78.cpp.s
 
+question80.o: question80.cpp.o
+
+.PHONY : question80.o
+
+# target to build an object file
+question80.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question80.dir/build.make src/CMakeFiles/question80.dir/question80.cpp.o
+.PHONY : question80.cpp.o
+
+question80.i: question80.cpp.i
+
+.PHONY : question80.i
+
+# target to preprocess a source file
+question80.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question80.dir/build.make src/CMakeFiles/question80.dir/question80.cpp.i
+.PHONY : question80.cpp.i
+
+question80.s: question80.cpp.s
+
+.PHONY : question80.s
+
+# target to generate assembly for a file
+question80.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question80.dir/build.make src/CMakeFiles/question80.dir/question80.cpp.s
+.PHONY : question80.cpp.s
+
 question88.o: question88.cpp.o
 
 .PHONY : question88.o
@@ -2862,6 +2904,7 @@ help:
 	@echo "... question461"
 	@echo "... question198"
 	@echo "... question21"
+	@echo "... question80"
 	@echo "... question17"
 	@echo "... question102"
 	@echo "... question22"
@@ -3056,6 +3099,9 @@ help:
 	@echo "... question78.o"
 	@echo "... question78.i"
 	@echo "... question78.s"
+	@echo "... question80.o"
+	@echo "... question80.i"
+	@echo "... question80.s"
 	@echo "... question88.o"
 	@echo "... question88.i"
 	@echo "... question88.s"

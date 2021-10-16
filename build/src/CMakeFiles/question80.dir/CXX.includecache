@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/src/question120.cpp
+/home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/src/question80.cpp
 iostream
 -
 vector
--
-climits
--
-algorithm
 -
 

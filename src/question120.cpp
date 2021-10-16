@@ -8,7 +8,7 @@ using namespace std;
 class Solution {
 public:
     // TODO:
-    int minimumTotal(vector<vector<int>>& triangle) {
+    int minimumTotal1(vector<vector<int>>& triangle) {
         int n = triangle.size();
         vector<int> f(n);
         f[0] = triangle[0][0];
