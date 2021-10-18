@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/question8.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question8.dir/rule
+.PHONY : src/CMakeFiles/question8.dir/rule
+
+# Convenience name for target.
+question8: src/CMakeFiles/question8.dir/rule
+
+.PHONY : question8
+
+# fast build rule for target.
+question8/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question8.dir/build.make src/CMakeFiles/question8.dir/build
+.PHONY : question8/fast
+
+# Convenience name for target.
 src/CMakeFiles/question120.dir/rule:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question120.dir/rule
 .PHONY : src/CMakeFiles/question120.dir/rule
@@ -2759,6 +2774,33 @@ question78.cpp.s:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question78.dir/build.make src/CMakeFiles/question78.dir/question78.cpp.s
 .PHONY : question78.cpp.s
 
+question8.o: question8.cpp.o
+
+.PHONY : question8.o
+
+# target to build an object file
+question8.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question8.dir/build.make src/CMakeFiles/question8.dir/question8.cpp.o
+.PHONY : question8.cpp.o
+
+question8.i: question8.cpp.i
+
+.PHONY : question8.i
+
+# target to preprocess a source file
+question8.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question8.dir/build.make src/CMakeFiles/question8.dir/question8.cpp.i
+.PHONY : question8.cpp.i
+
+question8.s: question8.cpp.s
+
+.PHONY : question8.s
+
+# target to generate assembly for a file
+question8.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question8.dir/build.make src/CMakeFiles/question8.dir/question8.cpp.s
+.PHONY : question8.cpp.s
+
 question80.o: question80.cpp.o
 
 .PHONY : question80.o
@@ -2848,6 +2890,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... question8"
 	@echo "... question120"
 	@echo "... question63"
 	@echo "... question54"
@@ -3099,6 +3142,9 @@ help:
 	@echo "... question78.o"
 	@echo "... question78.i"
 	@echo "... question78.s"
+	@echo "... question8.o"
+	@echo "... question8.i"
+	@echo "... question8.s"
 	@echo "... question80.o"
 	@echo "... question80.i"
 	@echo "... question80.s"
