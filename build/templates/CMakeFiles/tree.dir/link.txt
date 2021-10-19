@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/tree.dir/tree.cpp.o  -o tree 
+/usr/bin/x86_64-linux-gnu-g++-7     CMakeFiles/tree.dir/tree.cpp.o  -o tree 
