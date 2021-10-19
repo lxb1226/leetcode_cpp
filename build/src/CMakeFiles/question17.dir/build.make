@@ -64,11 +64,11 @@ src/CMakeFiles/question17.dir/question17.cpp.o: ../src/question17.cpp
 
 src/CMakeFiles/question17.dir/question17.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/question17.dir/question17.cpp.i"
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heyjude/workspace/projects/leetcode_cpp/src/question17.cpp > CMakeFiles/question17.dir/question17.cpp.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 src/CMakeFiles/question17.dir/question17.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/question17.dir/question17.cpp.s"
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build/src && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heyjude/workspace/projects/leetcode_cpp/src/question17.cpp -o CMakeFiles/question17.dir/question17.cpp.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 src/CMakeFiles/question17.dir/question17.cpp.o.requires:
 

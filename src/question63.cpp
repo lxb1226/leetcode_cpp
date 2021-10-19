@@ -7,8 +7,12 @@ class Solution
 {
 public:
     // TODO:有bug
+<<<<<<< HEAD
     int uniquePathsWithObstacles1(vector<vector<int>> &obstacleGrid)
     {
+=======
+    int uniquePathsWithObstacles1(vector<vector<int>>& obstacleGrid) {
+>>>>>>> 121e4f1d5944aa2d79d2af2588b9f9b59f094706
         int n = obstacleGrid.size(), m = obstacleGrid.at(0).size();
         vector<int> f(m);
         f[0] = (obstacleGrid[0][0] == 0);

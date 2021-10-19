@@ -64,11 +64,11 @@ templates/CMakeFiles/tree.dir/tree.cpp.o: ../templates/tree.cpp
 
 templates/CMakeFiles/tree.dir/tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tree.dir/tree.cpp.i"
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build/templates && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/heyjude/workspace/projects/leetcode_cpp/templates/tree.cpp > CMakeFiles/tree.dir/tree.cpp.i
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
 
 templates/CMakeFiles/tree.dir/tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tree.dir/tree.cpp.s"
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build/templates && /usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/heyjude/workspace/projects/leetcode_cpp/templates/tree.cpp -o CMakeFiles/tree.dir/tree.cpp.s
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
 
 templates/CMakeFiles/tree.dir/tree.cpp.o.requires:
 

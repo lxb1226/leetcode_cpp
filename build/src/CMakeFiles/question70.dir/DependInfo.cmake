@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/heyjude/workspace/projects/leetcode_cpp/src/question70.cpp" "/home/heyjude/workspace/projects/leetcode_cpp/build/src/CMakeFiles/question70.dir/question70.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

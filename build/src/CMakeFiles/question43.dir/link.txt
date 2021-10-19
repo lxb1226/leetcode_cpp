@@ -1,1 +1,0 @@
-/usr/bin/x86_64-linux-gnu-g++-7     CMakeFiles/question43.dir/question43.cpp.o  -o question43 
