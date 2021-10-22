@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/question438.dir/rule:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question438.dir/rule
+.PHONY : src/CMakeFiles/question438.dir/rule
+
+# Convenience name for target.
+question438: src/CMakeFiles/question438.dir/rule
+
+.PHONY : question438
+
+# fast build rule for target.
+question438/fast:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question438.dir/build.make src/CMakeFiles/question438.dir/build
+.PHONY : question438/fast
+
+# Convenience name for target.
 src/CMakeFiles/question8.dir/rule:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/question8.dir/rule
 .PHONY : src/CMakeFiles/question8.dir/rule
@@ -2276,6 +2291,33 @@ question40.cpp.s:
 	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question40.dir/build.make src/CMakeFiles/question40.dir/question40.cpp.s
 .PHONY : question40.cpp.s
 
+question438.o: question438.cpp.o
+
+.PHONY : question438.o
+
+# target to build an object file
+question438.cpp.o:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question438.dir/build.make src/CMakeFiles/question438.dir/question438.cpp.o
+.PHONY : question438.cpp.o
+
+question438.i: question438.cpp.i
+
+.PHONY : question438.i
+
+# target to preprocess a source file
+question438.cpp.i:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question438.dir/build.make src/CMakeFiles/question438.dir/question438.cpp.i
+.PHONY : question438.cpp.i
+
+question438.s: question438.cpp.s
+
+.PHONY : question438.s
+
+# target to generate assembly for a file
+question438.cpp.s:
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f src/CMakeFiles/question438.dir/build.make src/CMakeFiles/question438.dir/question438.cpp.s
+.PHONY : question438.cpp.s
+
 question45.o: question45.cpp.o
 
 .PHONY : question45.o
@@ -2932,6 +2974,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... question438"
 	@echo "... question8"
 	@echo "... question120"
 	@echo "... question63"
@@ -3128,6 +3171,9 @@ help:
 	@echo "... question40.o"
 	@echo "... question40.i"
 	@echo "... question40.s"
+	@echo "... question438.o"
+	@echo "... question438.i"
+	@echo "... question438.s"
 	@echo "... question45.o"
 	@echo "... question45.i"
 	@echo "... question45.s"
