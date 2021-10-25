@@ -69,7 +69,7 @@ public:
 
         return ans;
     }
-    int findDuplicate1(vector<int> &nums)
+    int findDuplicate3(vector<int> &nums)
     {
         int n = nums.size(), ans = 0;
         int bit_max = 31;

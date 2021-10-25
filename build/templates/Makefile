@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/leetcode_cpp
+CMAKE_SOURCE_DIR = /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/leetcode_cpp/build
+CMAKE_BINARY_DIR = /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/leetcode_cpp/build/CMakeFiles /home/heyjude/workspace/projects/leetcode_cpp/build/templates/CMakeFiles/progress.marks
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/leetcode_cpp/build/CMakeFiles 0
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/templates/CMakeFiles/progress.marks
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/clean
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/preinstall
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/preinstall
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 templates/CMakeFiles/tree.dir/rule:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/CMakeFiles/tree.dir/rule
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f CMakeFiles/Makefile2 templates/CMakeFiles/tree.dir/rule
 .PHONY : templates/CMakeFiles/tree.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ tree: templates/CMakeFiles/tree.dir/rule
 
 # fast build rule for target.
 tree/fast:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f templates/CMakeFiles/tree.dir/build.make templates/CMakeFiles/tree.dir/build
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f templates/CMakeFiles/tree.dir/build.make templates/CMakeFiles/tree.dir/build
 .PHONY : tree/fast
 
 tree.o: tree.cpp.o
@@ -131,7 +131,7 @@ tree.o: tree.cpp.o
 
 # target to build an object file
 tree.cpp.o:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f templates/CMakeFiles/tree.dir/build.make templates/CMakeFiles/tree.dir/tree.cpp.o
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f templates/CMakeFiles/tree.dir/build.make templates/CMakeFiles/tree.dir/tree.cpp.o
 .PHONY : tree.cpp.o
 
 tree.i: tree.cpp.i
@@ -140,7 +140,7 @@ tree.i: tree.cpp.i
 
 # target to preprocess a source file
 tree.cpp.i:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f templates/CMakeFiles/tree.dir/build.make templates/CMakeFiles/tree.dir/tree.cpp.i
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f templates/CMakeFiles/tree.dir/build.make templates/CMakeFiles/tree.dir/tree.cpp.i
 .PHONY : tree.cpp.i
 
 tree.s: tree.cpp.s
@@ -149,7 +149,7 @@ tree.s: tree.cpp.s
 
 # target to generate assembly for a file
 tree.cpp.s:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(MAKE) -f templates/CMakeFiles/tree.dir/build.make templates/CMakeFiles/tree.dir/tree.cpp.s
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(MAKE) -f templates/CMakeFiles/tree.dir/build.make templates/CMakeFiles/tree.dir/tree.cpp.s
 .PHONY : tree.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/heyjude/workspace/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/heyjude/workspace/projects/cpp/projects/leetcode_cpp/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
