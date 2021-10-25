@@ -1,1 +1,0 @@
-/usr/bin/x86_64-linux-gnu-g++-7  -g   CMakeFiles/question438.dir/question438.cpp.o  -o question438 
