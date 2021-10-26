@@ -43,6 +43,16 @@ void pre_traversal(TreeNode *root)
     }
 }
 
+// 先序遍历 递归版本
+void pre_traversal_recurise(TreeNode* root){
+    if(root == nullptr){
+        return;
+    }
+    cout << root->val << " ";
+    pre_traversal_recurise(root->left);
+    pre_traversal_recurise(root->right);
+}
+
 // 中序遍历, 非递归版本 左中右
 void in_traversal(TreeNode *root)
 {
@@ -64,6 +74,16 @@ void in_traversal(TreeNode *root)
     }
 }
 
+// 中序遍历，递归版本
+void in_traversal_recurise(TreeNode* root){
+    if(root == nullptr){
+        return;
+    }
+    in_traversal_recurise(root->left);
+    cout << root->val << " ";
+    in_traversal_recurise(root->right);
+}
+
 // 后序遍历，非递归版本 左右中
 void post_traversal(TreeNode *root)
 {
@@ -74,14 +94,14 @@ void post_traversal(TreeNode *root)
         if (root != nullptr)
         {
             stack_node.push(root);
-            root = root->left;
+            root = root->left;  // 首先找到最左边的节点
         }
         else
         {
             root = stack_node.top();
             if (root->right == nullptr || root->right == lastvisit)
             {
-                // 如果当前节点的右节点为空，或者
+                // 如果当前节点的右节点为空或者已经访问过了
                 cout << root->val << " ";
                 stack_node.pop();
                 lastvisit = root;
@@ -89,10 +109,20 @@ void post_traversal(TreeNode *root)
             }
             else
             {
-                root = root->right;
+                root = root->right; 
             }
         }
     }
+}
+
+// 后序遍历 递归版本
+void post_traversal_recurise(TreeNode* root){
+    if(root == nullptr){
+        return;
+    }
+    post_traversal_recurise(root->left);
+    post_traversal_recurise(root->right);
+    cout << root->val << " ";
 }
 
 // 层序遍历
