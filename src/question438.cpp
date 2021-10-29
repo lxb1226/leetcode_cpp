@@ -15,13 +15,13 @@ public:
         return true;
     }
 
-    // TODO:有bug
+    // TODO:
     vector<int> findAnagrams(string s, string p) {
         int n = s.size(), m = p.size();
         vector<int> res;
         if(n < m) return vector<int>{};
-        vector<int> pCnt{26, 0};
-        vector<int> sCnt{26, 0};
+        vector<int> pCnt(26, 0);
+        vector<int> sCnt(26, 0);
         for(int i = 0; i < m; i++){
             pCnt[p[i] - 'a']++;
             sCnt[s[i] - 'a']++;
