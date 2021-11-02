@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    // TODO:有问题
+    // 暴力解法
     int maximalRectangle(vector<vector<char>> &matrix)
     {
         int m = matrix.size();
@@ -22,7 +22,9 @@ public:
         {
             for (int j = 0; j < n; j++)
             {
-                left[i][j] = (j == 0 ? 0 : left[i][j - 1] + 1);
+                if(matrix[i][j] == '1'){
+                    left[i][j] = (j == 0 ? 0 : left[i][j - 1]) + 1;
+                }
             }
         }
 
