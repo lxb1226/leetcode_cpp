@@ -1,11 +1,13 @@
 #include <iostream>
 #include <vector>
 #include <climits>
+#include <stack>
 
 using namespace std;
 
 //   Definition for a binary tree node.
-struct TreeNode {
+struct TreeNode
+{
     int val;
     TreeNode *left;
     TreeNode *right;
@@ -14,18 +16,23 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-class Solution {
+class Solution
+{
 public:
     // 递归
-    bool isValidBST(TreeNode* root) {
+    bool isValidBST(TreeNode *root)
+    {
         return helper(root, LONG_MIN, LONG_MAX);
     }
 
-    bool helper(TreeNode* root, long long lower, long long upper){
-        if(root == nullptr){
+    bool helper(TreeNode *root, long long lower, long long upper)
+    {
+        if (root == nullptr)
+        {
             return true;
         }
-        if(root->val <= lower || root->val >= upper){
+        if (root->val <= lower || root->val >= upper)
+        {
             return false;
         }
 
@@ -33,9 +40,34 @@ public:
     }
 
     // 法二：中序遍历
+    bool isValidBST(TreeNode *root)
+    {
+        stack<TreeNode *> stk;
+        long long pre = LONG_MIN;
+        while (root != nullptr || !stk.empty())
+        {
+            if (root != nullptr)
+            {
+                stk.push(root);
+                root = root->left;
+            }
+            else
+            {
+                root = stk.top();
+                stk.pop();
+                if (root->val <= pre)
+                {
+                    return false;
+                }
+                pre = root->val;
+                root = root->right;
+            }
+        }
 
+        return true;
+    }
 };
 
-int main(){
-
+int main()
+{
 }
