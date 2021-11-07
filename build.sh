@@ -10,4 +10,4 @@ mkdir -p $BUILD_DIR \
     && cmake -DCMAKE_BUILD_TYPE=$BUILD_TYPE \
         $SOURCE_DIR     \
         -DCMAKE_EXPORT_COMPILE_COMMANDS=YES \
-    && make $* -j 8
+    && make $* -j 12
