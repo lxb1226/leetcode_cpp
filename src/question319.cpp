@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <unordered_map>
+#include <cmath>
 
 using namespace std;
 
@@ -36,31 +36,10 @@ public:
     }
 
     int bulbSwitch(int n) {
-        if(n <= 1){
-            return n;
-        }else if(n == 2){
-            return 1;
-        }
-
-        // 考虑对于每个位置，会转变多少次,也就是说分解因式，计算出它的因式。这里因式需要除去1
-        unordered_map<int,int> map_;
-        int cnt = 0;
-        for(int i = 3; i <= n; i++){
-            cnt += getFactor(i);
-        }
-
-        return cnt;
+        return sqrt(n + 0.5);
     }
 
-    int getFactor(int num){
-        int cnt = 0;
-        for(int i = 2; i <= num / 2; i++){
-            if(num % i != 0){
-                cnt++;
-            }
-        }
-        return cnt;
-    }
+
 };
 
 int main(){
