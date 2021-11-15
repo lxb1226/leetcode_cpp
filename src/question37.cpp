@@ -1,89 +1,53 @@
 #include <iostream>
 #include <vector>
+#include <string.h>
 
 using namespace std;
 
 class Solution
 {
 public:
-    // TODO:
-    int n = 10;
-    vector<vector<int>> rows;
-    vector<vector<int>> cols;
-    vector<vector<int>> boxs;
-    vector<vector<int>> directions{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-    void solveSudoku(vector<vector<char>> &board)
-    {
-        rows.assign(n, vector<int>(n, 0));
-        cols.assign(n, vector<int>(n, 0));
-        boxs.assign(n, vector<int>(n, 0));
+    bool line[9][9];
+    bool column[9][9];
+    bool block[3][3][9];
+    bool valid;
+    vector<pair<int,int>> spaces;
 
-        for (int i = 0; i < 9; ++i)
-        {
-            for (int j = 0; j < 9; ++j)
-            {
-                int pos = j / 3 + i / 3 * 3;
-                if (board[i][j] != '.')
-                {
-                    rows[i][board[i][j] - '0'] = 1;
-                    boxs[pos][board[i][j] - '0'] = 1;
-                }
-
-                if (board[j][i] != '.')
-                {
-                    cols[i][board[i][j] - '0'] = 1;
-                }
-            }
+    public:
+    void dfs(vector<vector<char>>& board, int pos){
+        if(pos == spaces.size()){
+            valid = true;
+            return;
         }
 
-        backtrack(board, 0, 0);
+        auto [i, j] = spaces[pos];
+        for(int digit = 0; digit < 9 && !valid; ++digit){
+            if(!line[i][digit] && !column[j][digit] && !block[i / 3][j / 3][digit]){
+                line[i][digit] = column[j][digit] = block[i / 3][j / 3][digit] = true;
+                board[i][j] = digit + '0' + 1;
+                dfs(board, pos + 1);
+                line[i][digit] = column[j][digit] = block[i / 3][j / 3][digit] = false;
+            }
+        }
     }
 
-    void backtrack(vector<vector<char>> &board, int row, int col)
-    {
-        // 终止条件是什么??
+    void solveSudoku(vector<vector<char>>& board){
+        memset(line, false, sizeof(line));
+        memset(column, false, sizeof(column));
+        memset(block, false, sizeof(block));
+        valid = false;
 
-        if (board[row][col] == '.')
-        {
-            // 处理当前空格
-            for (int i = 1; i <= 9; ++i)
-            {
-                int pos = col / 3 + row / 3 * 3;
-                if (!rows[row][i] && !cols[col][i] && !boxs[pos][i])
-                {
-                    board[row][col] = '0' + i;
-                    rows[row][i] = 1;
-                    cols[col][i] = 1;
-                    boxs[pos][i] = 1;
-                    for (int j = 0; j < 4; ++j)
-                    {
-                        int new_row = row + directions[j][0];
-                        int new_col = col + directions[j][1];
-                        if (new_row >= 0 && new_row < 9 && new_col >= 0 && new_col < 9)
-                        {
-                            backtrack(board, new_row, new_col);
-                        }
-                    }
-                    board[row][col] = '.';
-                    rows[row][i] = 0;
-                    cols[col][i] = 0;
-                    boxs[pos][i] = 0;
+        for(int i = 0; i < 9; ++i){
+            for(int j = 0; j < 9; ++j){
+                if(board[i][j] == '.'){
+                    spaces.emplace_back(i, j);
+                }else{
+                    int digit = board[i][j] - '0' - 1;
+                    line[i][digit] = column[j][digit] = block[i / 3][j / 3][digit] = true;
                 }
             }
         }
-        else
-        {
-            // 不是空格，直接下一个
-            for (int j = 0; j < 4; ++j)
-            {
-                int new_row = row + directions[j][0];
-                int new_col = col + directions[j][1];
-                if (new_row >= 0 && new_row < 9 && new_col >= 0 && new_col < 9)
-                {
-                    backtrack(board, new_row, new_col);
-                }
-            }
-        }
+        dfs(board, 0);
     }
 };
 

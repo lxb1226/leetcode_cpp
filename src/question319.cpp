@@ -35,6 +35,7 @@ public:
         return cnt;
     }
 
+    // 脑筋急转弯
     int bulbSwitch(int n) {
         return sqrt(n + 0.5);
     }
