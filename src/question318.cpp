@@ -30,7 +30,7 @@ public:
 
 
     // 法一：暴力法 未超时 O(n^2 * max(word))
-    int maxProduct1(vector<string>& words) {
+    int maxProduct2(vector<string>& words) {
         int n = words.size();
         int max_val = 0;
         for(int i = 0; i < n - 1; ++i){
@@ -48,7 +48,7 @@ public:
     }
 
     // 位运算，进一步优化
-    int maxProduct(vector<string>& words) {
+    int maxProduct3(vector<string>& words) {
         int n = words.size();
         vector<int> masks(n);
         unordered_map<int,int> map;
@@ -82,7 +82,7 @@ public:
 
 
     // 法一：暴力法 未超时 O(n^2 * max(word))
-    int maxProduct1(vector<string>& words) {
+    int maxProduct4(vector<string>& words) {
         int n = words.size();
         int max_val = 0;
         for(int i = 0; i < n - 1; ++i){
