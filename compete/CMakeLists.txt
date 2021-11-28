@@ -1,0 +1,2 @@
+add_executable(question5940 question5940.cpp)
+add_executable(question5939 question5939.cpp)
